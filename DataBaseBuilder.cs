@@ -778,6 +778,350 @@
         ));
         #endregion
 
+
+
+
+
+
+
+
+
+
+        #region Thorium ------------------------------------------------------ Thorium
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Thorium",//Th-234
+            symbol: "Th",
+            massNumber: 234,//p+n
+            atomicNumber: 90,
+            atomicMass: 234.04360123,//atomic weight
+            abundance: 0.0,
+            massDefect: 40.614285,//mass excess
+            bindingEnergy: 7.596849,
+            halfLife: "24.07407407407d"
+        ));
+        #endregion
+
+
+
+
+
+
+        #region Uranium ------------------------------------------------------ Uranium
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-217
+            symbol: "U",
+            massNumber: 217,//p+n
+            atomicNumber: 92,
+            atomicMass: 217.024368791,//atomic weight
+            abundance: 0.0,
+            massDefect: 22.699383,//mass excess
+            bindingEnergy: 7.635026,
+            halfLife: "16ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-218
+            symbol: "U",
+            massNumber: 218,//p+n
+            atomicNumber: 92,
+            atomicMass: 218.023535671,//atomic weight
+            abundance: 0.0,
+            massDefect: 21.923337,//mass excess
+            bindingEnergy: 7.640587,
+            halfLife: "510µs"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-219
+            symbol: "U",
+            massNumber: 219,//p+n
+            atomicNumber: 92,
+            atomicMass: 219.02491916,//atomic weight
+            abundance: 0.0,
+            massDefect: 23.212048,//mass excess
+            bindingEnergy: 7.636669,
+            halfLife: "42µs"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-220
+            symbol: "U",
+            massNumber: 220,//p+n
+            atomicNumber: 92,
+            atomicMass: 220.024723,//atomic weight
+            abundance: 0.0,
+            massDefect: 23.029,//mass excess
+            bindingEnergy: 7.639,
+            halfLife: "60.00000000002ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-221
+            symbol: "U",
+            massNumber: 221,//p+n
+            atomicNumber: 92,
+            atomicMass: 221.026399,//atomic weight
+            abundance: 0.0,
+            massDefect: 24.591,//mass excess
+            bindingEnergy: 7.634,
+            halfLife: "700ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-222
+            symbol: "U",
+            massNumber: 222,//p+n
+            atomicNumber: 92,
+            atomicMass: 222.026086,//atomic weight
+            abundance: 0.0,
+            massDefect: 24.299,//mass excess
+            bindingEnergy: 7.638,
+            halfLife: "1µs"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-223
+            symbol: "U",
+            massNumber: 223,//p+n
+            atomicNumber: 92,
+            atomicMass: 223.0277386,//atomic weight
+            abundance: 0.0,
+            massDefect: 25.83834,//mass excess
+            bindingEnergy: 7.632688,
+            halfLife: "18µs"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-224
+            symbol: "U",
+            massNumber: 224,//p+n
+            atomicNumber: 92,
+            atomicMass: 224.027604778,//atomic weight
+            abundance: 0.0,
+            massDefect: 25.713685,//mass excess
+            bindingEnergy: 7.635203,
+            halfLife: "900µs"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-225
+            symbol: "U",
+            massNumber: 225,//p+n
+            atomicNumber: 92,
+            atomicMass: 225.029390717,//atomic weight
+            abundance: 0.0,
+            massDefect: 27.377277,//mass excess
+            bindingEnergy: 7.629747,
+            halfLife: "84ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-226
+            symbol: "U",
+            massNumber: 226,//p+n
+            atomicNumber: 92,
+            atomicMass: 226.029338702,//atomic weight
+            abundance: 0.0,
+            massDefect: 27.328826,//mass excess
+            bindingEnergy: 7.631916,
+            halfLife: "350ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-227
+            symbol: "U",
+            massNumber: 227,//p+n
+            atomicNumber: 92,
+            atomicMass: 227.031156367,//atomic weight
+            abundance: 0.0,
+            massDefect: 29.02197,//mass excess
+            bindingEnergy: 7.626393,
+            halfLife: "1.1m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-228
+            symbol: "U",
+            massNumber: 228,//p+n
+            atomicNumber: 92,
+            atomicMass: 228.031374006,//atomic weight
+            abundance: 0.0,
+            massDefect: 29.224699,//mass excess
+            bindingEnergy: 7.627455,
+            halfLife: "9.166666666667m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-229
+            symbol: "U",
+            massNumber: 229,//p+n
+            atomicNumber: 92,
+            atomicMass: 229.033505939,//atomic weight
+            abundance: 0.0,
+            massDefect: 31.210582,//mass excess
+            bindingEnergy: 7.620721,
+            halfLife: "58.33333333333m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-230
+            symbol: "U",
+            massNumber: 230,//p+n
+            atomicNumber: 92,
+            atomicMass: 230.033939784,//atomic weight
+            abundance: 0.0,
+            massDefect: 31.614706,//mass excess
+            bindingEnergy: 7.620923,
+            halfLife: "20.83333333333d"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-231
+            symbol: "U",
+            massNumber: 231,//p+n
+            atomicNumber: 92,
+            atomicMass: 231.036293704,//atomic weight
+            abundance: 0.0,
+            massDefect: 33.807368,//mass excess
+            bindingEnergy: 7.613381,
+            halfLife: "4.166666666667d"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-232
+            symbol: "U",
+            massNumber: 232,//p+n
+            atomicNumber: 92,
+            atomicMass: 232.037156152,//atomic weight
+            abundance: 0.0,
+            massDefect: 34.610734,//mass excess
+            bindingEnergy: 7.611892,
+            halfLife: "68.81024860477y"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-233
+            symbol: "U",
+            massNumber: 233,//p+n
+            atomicNumber: 92,
+            atomicMass: 233.039635207,//atomic weight
+            abundance: 0.0,
+            massDefect: 36.919958,//mass excess
+            bindingEnergy: 7.603953,
+            halfLife: "159200y"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-234
+            symbol: "U",
+            massNumber: 234,//p+n
+            atomicNumber: 92,
+            atomicMass: 234.040952088,//atomic weight
+            abundance: 0.0054,
+            massDefect: 38.1466258,//mass excess
+            bindingEnergy: 7.600708,
+            halfLife: "245500y"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-235
+            symbol: "U",
+            massNumber: 235,//p+n
+            atomicNumber: 92,
+            atomicMass: 235.043929918,//atomic weight
+            abundance: 0.7204,
+            massDefect: 40.920456,//mass excess
+            bindingEnergy: 7.590907,
+            halfLife: "7.039573820396e8y"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-236
+            symbol: "U",
+            massNumber: 236,//p+n
+            atomicNumber: 92,
+            atomicMass: 236.045568006,//atomic weight
+            abundance: 0.0,
+            massDefect: 42.446325,//mass excess
+            bindingEnergy: 7.586477,
+            halfLife: "2.342e7y"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-237
+            symbol: "U",
+            massNumber: 237,//p+n
+            atomicNumber: 92,
+            atomicMass: 237.048730184,//atomic weight
+            abundance: 0.0,
+            massDefect: 45.391875,//mass excess
+            bindingEnergy: 7.576094,
+            halfLife: "6.747685185185d"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-238
+            symbol: "U",
+            massNumber: 238,//p+n
+            atomicNumber: 92,
+            atomicMass: 238.050788247,//atomic weight
+            abundance: 99.2742,
+            massDefect: 47.308948,//mass excess
+            bindingEnergy: 7.57012,
+            halfLife: "4.471080669711e10y"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-239
+            symbol: "U",
+            massNumber: 239,//p+n
+            atomicNumber: 92,
+            atomicMass: 239.054293299,//atomic weight
+            abundance: 0.0,
+            massDefect: 50.573883,//mass excess
+            bindingEnergy: 7.558557,
+            halfLife: "23.45m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-240
+            symbol: "U",
+            massNumber: 240,//p+n
+            atomicNumber: 92,
+            atomicMass: 240.056591988,//atomic weight
+            abundance: 0.0,
+            massDefect: 52.715098,//mass excess
+            bindingEnergy: 7.551771,
+            halfLife: "14.11111111111h"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-241
+            symbol: "U",
+            massNumber: 241,//p+n
+            atomicNumber: 92,
+            atomicMass: 241.06033,//atomic weight
+            abundance: 0.0,
+            massDefect: 56.197,//mass excess
+            bindingEnergy: 7.539,
+            halfLife: "5m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Uranium",//U-242
+            symbol: "U",
+            massNumber: 242,//p+n
+            atomicNumber: 92,
+            atomicMass: 242.062931,//atomic weight
+            abundance: 0.0,
+            massDefect: 58.62,//mass excess
+            bindingEnergy: 7.532,
+            halfLife: "16.83333333333m"
+        ));
+        #endregion
+
         DataBaseInteract.UpdateElementData(elementsToAdd);
     }
 }
