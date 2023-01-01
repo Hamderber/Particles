@@ -27,10 +27,10 @@
 
     public static string FormatDecay(Particle initialParticle, List<Particle> newParticles)
     {
-        string output = $"{initialParticle} -> ";
+        string output = $"\nDecay:  {initialParticle.ToStringSimple()} -> ";
         for (int i = 0; i < newParticles.Count; i++)
         {
-            output += $"{newParticles[i].ToString()}";
+            output += $"{newParticles[i].ToStringSimple()}";
             if (i != newParticles.Count - 1)
             {
                 output += " + ";

@@ -23,7 +23,26 @@ class Program
             DataBaseBuilder.Build();
         }
 
-        Particle C8 = DataBaseInteract.LoadElementData(8, 6);
+        /*Particle C8 = DataBaseInteract.LoadElementData(8, 6);
         Console.WriteLine($"Loaded particle with data:\n{C8}");
+
+        C8.Decay(DecayType.Alpha);
+
+        Particle Li7 = DataBaseInteract.LoadElementData(7, 3);
+        Console.WriteLine($"Loaded particle with data:\n{Li7}");
+
+        Li7.Decay(DecayType.Alpha);*/
+
+        /*Particle B8 = DataBaseInteract.LoadElementData(8, 5);
+        Console.WriteLine($"Loaded particle with data:\n{B8}");
+
+        B8.Decay(DecayType.Alpha);*/
+
+        Particle U238 = DataBaseInteract.LoadElementData(238, 92);
+        Console.WriteLine($"Loaded particle with data:\n{U238}");
+
+        U238.Decay(DecayType.Alpha);
+
+        Console.WriteLine("\n\n\n\n");
     }
 }

@@ -11,7 +11,7 @@
 public static class Constants
 {
     /// <summary>
-    /// 931.493614838934 Mev
+    /// 931.493614838934 Mev/u
     /// </summary>
     public static double amuToMev = 931.493614838934;
     /// <summary>
