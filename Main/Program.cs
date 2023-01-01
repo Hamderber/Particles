@@ -43,6 +43,11 @@ class Program
 
         U238.Decay(DecayType.Alpha);
 
+        Particle C14 = DataBaseInteract.LoadElementData(14, 6);
+        Console.WriteLine($"Loaded particle with data:\n{C14}");
+
+        C14.Decay(DecayType.BetaMinus);
+
         Console.WriteLine("\n\n\n\n");
     }
 }

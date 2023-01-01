@@ -1,14 +1,4 @@
-﻿public class ElementaryParticle
-{
-
-
-    public ElementaryParticle()
-    {
-        //Particle gamma = new Particle(0, 0, "γ", "Gamma");
-    }
-}
-
-public static class Constants
+﻿public static class Constants
 {
     /// <summary>
     /// 931.493614838934 Mev/u

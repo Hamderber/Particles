@@ -41,6 +41,61 @@ public class Particle
 
     public Particle() { }
 
+    public Particle(ElementaryParticle elementaryType)
+    {
+        switch (elementaryType)
+        {
+            case (ElementaryParticle.Electron):
+                Name = "Electron";
+                Symbol = "e-";
+                MassNumber = 0;
+                AtomicNumber = 0;
+                AtomicMass = 0.000548579909;
+                Abundance = 100.0;
+                MassDefect = 0.0;
+                BindingEnergy = 0.0;
+                HalfLife = "Stable";
+                IsStable = true;
+                return;
+            case (ElementaryParticle.Positron):
+                Name = "Positron";
+                Symbol = "e+";
+                MassNumber = 0;
+                AtomicNumber = 0;
+                AtomicMass = 0.000548756;
+                Abundance = 100.0;
+                MassDefect = 0.0;
+                BindingEnergy = 0.0;
+                HalfLife = "Stable";
+                IsStable = true;
+                return;
+            case (ElementaryParticle.ElectronAntineutrino):
+                Name = "Electron Antineutrino";
+                Symbol = "ν\u0304e";
+                MassNumber = 0;
+                AtomicNumber = 0;
+                AtomicMass = 0.0;
+                Abundance = 100.0;
+                MassDefect = 0.0;
+                BindingEnergy = 0.0;
+                HalfLife = "Stable";
+                IsStable = true;
+                return;
+            case (ElementaryParticle.ElectronNeutrino):
+                Name = "Neutrino";
+                Symbol = "νe";
+                MassNumber = 0;
+                AtomicNumber = 0;
+                AtomicMass = 0.0;
+                Abundance = 100.0;
+                MassDefect = 0.0;
+                BindingEnergy = 0.0;
+                HalfLife = "Stable";
+                IsStable = true;
+                return;
+        }
+    }
+
     public Particle(string elementName, string symbol, int massNumber, int atomicNumber, double atomicMass, double abundance, double massDefect, double bindingEnergy, string halfLife)
     {
         Name = elementName;
@@ -79,18 +134,18 @@ public class Particle
                 return list;
             case DecayType.Alpha:
                 return (AlphaDecay());
-            /*case DecayType.BetaPlus:
-            return (BetaPlusDecay());
-        case DecayType.BetaMinus:
-            return (BetaMinusDecay());
-        case DecayType.Gamma:
-            return (GammaDecay());
-        case DecayType.NeutronEmission:
-            return (NeutronEmissionDecay());
-        case DecayType.ElectronCapture:
-            return (ElectronCaptureDecay());
-        case DecayType.Fission:
-            return (FissionDecay()); */
+            case DecayType.BetaMinus:
+                return (BetaMinusDecay());
+            case DecayType.BetaPlus:
+                return (BetaPlusDecay());
+            /*case DecayType.Gamma:
+                return (GammaDecay());
+            case DecayType.NeutronEmission:
+                return (NeutronEmissionDecay());
+            case DecayType.ElectronCapture:
+                return (ElectronCaptureDecay());
+            case DecayType.Fission:
+                return (FissionDecay()); */
             default:
                 List<Particle> dList = new List<Particle>();
                 dList.Add(this);
@@ -129,6 +184,66 @@ public class Particle
         return result;
     }
 
+    public List<Particle> BetaMinusDecay()
+    {
+        List<Particle> result = new List<Particle>();
+        Particle newParticle = DataBaseInteract.LoadElementData(MassNumber, AtomicNumber + 1);
+
+        //Checks if the element trying to decay is stable
+        if (IsStable)
+        {
+            Console.WriteLine($"Stability prevents decay. Result is the same as the input.");
+            result.Add(this);
+        }
+        //Check to see if the unstable element's requested decay is possible
+        else if (newParticle == null)
+        {
+            Console.WriteLine($"Decay requested is not possible. Result is the same as the input.");
+            result.Add(this);
+        }
+        //Do the decay if it is possible
+        else
+        {
+            Particle electron = new Particle(ElementaryParticle.Electron);
+            Particle antineutrino = new Particle(ElementaryParticle.ElectronAntineutrino);
+            result.Add(newParticle);
+            result.Add(electron);
+            result.Add(antineutrino);
+        }
+        Console.WriteLine($"{Tools.FormatDecay(this, result)}");
+        return result;
+    }
+
+    public List<Particle> BetaPlusDecay()
+    {
+        List<Particle> result = new List<Particle>();
+        Particle newParticle = DataBaseInteract.LoadElementData(MassNumber, AtomicNumber - 1);
+
+        //Checks if the element trying to decay is stable
+        if (IsStable)
+        {
+            Console.WriteLine($"Stability prevents decay. Result is the same as the input.");
+            result.Add(this);
+        }
+        //Check to see if the unstable element's requested decay is possible
+        else if (newParticle == null)
+        {
+            Console.WriteLine($"Decay requested is not possible. Result is the same as the input.");
+            result.Add(this);
+        }
+        //Do the decay if it is possible
+        else
+        {
+            Particle positron = new Particle(ElementaryParticle.Positron);
+            Particle neutrino = new Particle(ElementaryParticle.ElectronNeutrino);
+            result.Add(newParticle);
+            result.Add(positron);
+            result.Add(neutrino);
+        }
+        Console.WriteLine($"{Tools.FormatDecay(this, result)}");
+        return result;
+    }
+
     public string ToStringSimple()
     {
         return $"{Tools.FormatParticle(this)}";
@@ -149,10 +264,18 @@ public enum DecayType
 {
     None = 0,
     Alpha = 1,
-    BetaPlus = 2,
-    BetaMinus = 3,
+    BetaMinus = 2,
+    BetaPlus = 3,
     Gamma = 4,
     NeutronEmission = 5,
     ElectronCapture = 6,
     Fission = 7
+}
+
+public enum ElementaryParticle
+{
+    Electron = 0,
+    Positron = 1,
+    ElectronAntineutrino = 2,
+    ElectronNeutrino = 3
 }

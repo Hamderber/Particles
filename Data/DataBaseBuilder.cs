@@ -778,7 +778,200 @@
         ));
         #endregion
 
-
+        #region Nitrogen ------------------------------------------------------ Nitrogen
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nitrogen",//N-10
+            symbol: "N",
+            massNumber: 10,//p+n
+            atomicNumber: 7,
+            atomicMass: 10.041653674,//atomic weight
+            abundance: 0.0,
+            massDefect: 38.800148,//mass excess
+            bindingEnergy: 3.64366,
+            halfLife: "2e-13ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nitrogen",//N-11
+            symbol: "N",
+            massNumber: 11,//p+n
+            atomicNumber: 7,
+            atomicMass: 11.026090956,//atomic weight
+            abundance: 0.0,
+            massDefect: 24.303569,//mass excess
+            bindingEnergy: 5.364045,
+            halfLife: "5.9e-13ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nitrogen",//N-12
+            symbol: "N",
+            massNumber: 12,//p+n
+            atomicNumber: 7,
+            atomicMass: 12.018613197,//atomic weight
+            abundance: 0.0,
+            massDefect: 17.338082,//mass excess
+            bindingEnergy: 6.170108,
+            halfLife: "11ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nitrogen",//N-13
+            symbol: "N",
+            massNumber: 13,//p+n
+            atomicNumber: 7,
+            atomicMass: 13.005738609,//atomic weight
+            abundance: 0.0,
+            massDefect: 5.345481,//mass excess
+            bindingEnergy: 7.238863,
+            halfLife: "9.965m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nitrogen",//N-14
+            symbol: "N",
+            massNumber: 14,//p+n
+            atomicNumber: 7,
+            atomicMass: 14.00307400478,//atomic weight
+            abundance: 99.634,
+            massDefect: 2.86341704,//mass excess
+            bindingEnergy: 7.475614,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nitrogen",//N-15
+            symbol: "N",
+            massNumber: 15,//p+n
+            atomicNumber: 7,
+            atomicMass: 15.00010889823,//atomic weight
+            abundance: 0.366,
+            massDefect: 0.10143805,//mass excess
+            bindingEnergy: 7.699459,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nitrogen",//N-16
+            symbol: "N",
+            massNumber: 16,//p+n
+            atomicNumber: 7,
+            atomicMass: 16.006101658,//atomic weight
+            abundance: 0.0,
+            massDefect: 5.683658,//mass excess
+            bindingEnergy: 7.373812,
+            halfLife: "7.13s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nitrogen",//N-17
+            symbol: "N",
+            massNumber: 17,//p+n
+            atomicNumber: 7,
+            atomicMass: 17.008450261,//atomic weight
+            abundance: 0.0,
+            massDefect: 7.871368,//mass excess
+            bindingEnergy: 7.286153,
+            halfLife: "4.173s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nitrogen",//N-18
+            symbol: "N",
+            massNumber: 18,//p+n
+            atomicNumber: 7,
+            atomicMass: 18.014078959,//atomic weight
+            abundance: 0.0,
+            massDefect: 13.114466,//mass excess
+            bindingEnergy: 7.03849,
+            halfLife: "624ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nitrogen",//N-19
+            symbol: "N",
+            massNumber: 19,//p+n
+            atomicNumber: 7,
+            atomicMass: 19.017028697,//atomic weight
+            abundance: 0.0,
+            massDefect: 15.862129,//mass excess
+            bindingEnergy: 6.948235,
+            halfLife: "271ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nitrogen",//N-20
+            symbol: "N",
+            massNumber: 20,//p+n
+            atomicNumber: 7,
+            atomicMass: 20.023365807,//atomic weight
+            abundance: 0.0,
+            massDefect: 21.76511,//mass excess
+            bindingEnergy: 6.70924,
+            halfLife: "130ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nitrogen",//N-21
+            symbol: "N",
+            massNumber: 21,//p+n
+            atomicNumber: 7,
+            atomicMass: 21.02710824,//atomic weight
+            abundance: 0.0,
+            massDefect: 25.251164,//mass excess
+            bindingEnergy: 6.608099,
+            halfLife: "85ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nitrogen",//N-22
+            symbol: "N",
+            massNumber: 22,//p+n
+            atomicNumber: 7,
+            atomicMass: 22.034394934,//atomic weight
+            abundance: 0.0,
+            massDefect: 32.038675,//mass excess
+            bindingEnergy: 6.366085,
+            halfLife: "24ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nitrogen",//N-23
+            symbol: "N",
+            massNumber: 23,//p+n
+            atomicNumber: 7,
+            atomicMass: 23.04122,//atomic weight
+            abundance: 0.0,
+            massDefect: 38.396,//mass excess
+            bindingEnergy: 6.164,
+            halfLife: "14.5ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nitrogen",//N-24
+            symbol: "N",
+            massNumber: 24,//p+n
+            atomicNumber: 7,
+            atomicMass: 24.05104,//atomic weight
+            abundance: 0.0,
+            massDefect: 47.543,//mass excess
+            bindingEnergy: 5.862,
+            halfLife: "52.00000000001ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nitrogen",//N-25
+            symbol: "N",
+            massNumber: 25,//p+n
+            atomicNumber: 7,
+            atomicMass: 25.06066,//atomic weight
+            abundance: 0.0,
+            massDefect: 56.504,//mass excess
+            bindingEnergy: 5.592,
+            halfLife: "260ns"
+        ));
+        #endregion
 
 
 
