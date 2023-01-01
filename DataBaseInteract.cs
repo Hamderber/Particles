@@ -1,5 +1,7 @@
 ﻿public class DataBaseInteract
 {
+    public static bool ConsoleLogs = true;
+
     public static void ClearDataBase()
     {
         using (new TimedBlock("Clearing all data in database"))
@@ -10,11 +12,11 @@
                 {
                     basicSql.ExecuteNonReader(@"
                         DROP TABLE IF EXISTS Elements;");
-                    Console.WriteLine($"All of the database was cleared.");
+                    if (ConsoleLogs) Console.WriteLine($"All of the database was cleared.");
                 }
                 else
                 {
-                    Console.WriteLine($"Database was not cleared.");
+                    if (ConsoleLogs) Console.WriteLine($"Database was not cleared.");
                 }
             }
         }
@@ -74,7 +76,7 @@
 
                 foreach (var element in elements)
                 {
-                    Console.WriteLine($"\n\nElement {element.Name} was added to the database with the following information:\n\n{element}");
+                    if (ConsoleLogs) Console.WriteLine($"\n\nElement {element.Name} was added to the database with the following information:\n\n{element}");
                 }
             }
         }

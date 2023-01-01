@@ -56,6 +56,10 @@
         return Subscript;
     }
 
+    /// <summary>
+    /// Assigns the appropriate symbol and name to an element based off of the atomic number
+    /// </summary>
+    /// <param name="particle"></param>
     public static void ClassifyParticle(Particle particle)
     {
         switch (particle.AtomicNumber)

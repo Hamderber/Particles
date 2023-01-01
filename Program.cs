@@ -6,9 +6,10 @@ class Program
     {
         //SETTINGS:
 
-        RegenerateSQLiteDBsEachRun = false;
+        RegenerateSQLiteDBsEachRun = true;
         TimedBlock.Enabled = false;
         SQLiteData.ConsoleLogs = false;
+        DataBaseInteract.ConsoleLogs = false;
 
         //
         Console.OutputEncoding = System.Text.Encoding.Unicode;
