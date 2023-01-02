@@ -1,1 +1,3 @@
 ﻿- Make table of indexes with just neutron and protons
+- After building database, verify all elements' abundance adds up to 100.0
+- 

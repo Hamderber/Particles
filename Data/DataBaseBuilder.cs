@@ -1867,9 +1867,1708 @@
         ));
         #endregion
 
+        #region Magnesium ------------------------------------------------------ Magnesium
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-20
+            symbol: "Mg",
+            massNumber: 20,//p+n
+            atomicNumber: 12,
+            atomicMass: 20.018862545,//atomic weight
+            abundance: 0.0,
+            massDefect: 17.570348,//mass excess
+            bindingEnergy: 6.723392,
+            halfLife: "90ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-21
+            symbol: "Mg",
+            massNumber: 21,//p+n
+            atomicNumber: 12,
+            atomicMass: 21.01171291,//atomic weight
+            abundance: 0.0,
+            massDefect: 10.910506,//mass excess
+            bindingEnergy: 7.104714,
+            halfLife: "122ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-22
+            symbol: "Mg",
+            massNumber: 22,//p+n
+            atomicNumber: 12,
+            atomicMass: 21.999573843,//atomic weight
+            abundance: 0.0,
+            massDefect: -0.396963,//mass excess
+            bindingEnergy: 7.662626,
+            halfLife: "3.8755s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-23
+            symbol: "Mg",
+            massNumber: 23,//p+n
+            atomicNumber: 12,
+            atomicMass: 22.994123669,//atomic weight
+            abundance: 0.0,
+            massDefect: -5.473766,//mass excess
+            bindingEnergy: 7.901126,
+            halfLife: "11.317s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-24
+            symbol: "Mg",
+            massNumber: 24,//p+n
+            atomicNumber: 12,
+            atomicMass: 23.985041699,//atomic weight
+            abundance: 78.99,
+            massDefect: -13.933567,//mass excess
+            bindingEnergy: 8.260709,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-25
+            symbol: "Mg",
+            massNumber: 25,//p+n
+            atomicNumber: 12,
+            atomicMass: 24.985836917,//atomic weight
+            abundance: 10.0,
+            massDefect: -13.192826,//mass excess
+            bindingEnergy: 8.223504,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-26
+            symbol: "Mg",
+            massNumber: 26,//p+n
+            atomicNumber: 12,
+            atomicMass: 25.982592929,//atomic weight
+            abundance: 11.01,
+            massDefect: -16.214582,//mass excess
+            bindingEnergy: 8.333872,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-27
+            symbol: "Mg",
+            massNumber: 27,//p+n
+            atomicNumber: 12,
+            atomicMass: 26.984340585,//atomic weight
+            abundance: 0.0,
+            massDefect: -14.586651,//mass excess
+            bindingEnergy: 8.263854,
+            halfLife: "9.458333333333m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-28
+            symbol: "Mg",
+            massNumber: 28,//p+n
+            atomicNumber: 12,
+            atomicMass: 27.983876825,//atomic weight
+            abundance: 0.0,
+            massDefect: -15.018641,//mass excess
+            bindingEnergy: 8.272406,
+            halfLife: "20.915h"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-29
+            symbol: "Mg",
+            massNumber: 29,//p+n
+            atomicNumber: 12,
+            atomicMass: 28.9886,//atomic weight
+            abundance: 0.0,
+            massDefect: -10.619032,//mass excess
+            bindingEnergy: 8.113761,
+            halfLife: "1.3s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-30
+            symbol: "Mg",
+            massNumber: 30,//p+n
+            atomicNumber: 12,
+            atomicMass: 29.990434,//atomic weight
+            abundance: 0.0,
+            massDefect: -8.910672,//mass excess
+            bindingEnergy: 8.055401,
+            halfLife: "335ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-31
+            symbol: "Mg",
+            massNumber: 31,//p+n
+            atomicNumber: 12,
+            atomicMass: 30.996546,//atomic weight
+            abundance: 0.0,
+            massDefect: -3.21738,//mass excess
+            bindingEnergy: 7.87226,
+            halfLife: "232ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-32
+            symbol: "Mg",
+            massNumber: 32,//p+n
+            atomicNumber: 12,
+            atomicMass: 31.998975,//atomic weight
+            abundance: 0.0,
+            massDefect: -0.954781,//mass excess
+            bindingEnergy: 7.807774,
+            halfLife: "85ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-33
+            symbol: "Mg",
+            massNumber: 33,//p+n
+            atomicNumber: 12,
+            atomicMass: 33.005254,//atomic weight
+            abundance: 0.0,
+            massDefect: 4.89407,//mass excess
+            bindingEnergy: 7.638522,
+            halfLife: "90.5ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-34
+            symbol: "Mg",
+            massNumber: 34,//p+n
+            atomicNumber: 12,
+            atomicMass: 34.009456424,//atomic weight
+            abundance: 0.0,
+            massDefect: 8.808603,//mass excess
+            bindingEnergy: 7.536118,
+            halfLife: "20.19773057245ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-35
+            symbol: "Mg",
+            massNumber: 35,//p+n
+            atomicNumber: 12,
+            atomicMass: 35.01734,//atomic weight
+            abundance: 0.0,
+            massDefect: 16.152,//mass excess
+            bindingEnergy: 7.342,
+            halfLife: "70.69205700356ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-36
+            symbol: "Mg",
+            massNumber: 36,//p+n
+            atomicNumber: 12,
+            atomicMass: 36.023,//atomic weight
+            abundance: 0.0,
+            massDefect: 21.424,//mass excess
+            bindingEnergy: 7.215,
+            halfLife: "3.9ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-37
+            symbol: "Mg",
+            massNumber: 37,//p+n
+            atomicNumber: 12,
+            atomicMass: 37.0314,//atomic weight
+            abundance: 0.0,
+            massDefect: 29.249,//mass excess
+            bindingEnergy: 7.027,
+            halfLife: "260ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-38
+            symbol: "Mg",
+            massNumber: 38,//p+n
+            atomicNumber: 12,
+            atomicMass: 38.03757,//atomic weight
+            abundance: 0.0,
+            massDefect: 34.996,//mass excess
+            bindingEnergy: 6.903,
+            halfLife: "260ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-39
+            symbol: "Mg",
+            massNumber: 39,//p+n
+            atomicNumber: 12,
+            atomicMass: 39.046772,//atomic weight
+            abundance: 0.0,
+            massDefect: 43.568,//mass excess
+            bindingEnergy: 6.713,
+            halfLife: "180ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Magnesium",//Mg-40
+            symbol: "Mg",
+            massNumber: 40,//p+n
+            atomicNumber: 12,
+            atomicMass: 40.05393,//atomic weight
+            abundance: 0.0,
+            massDefect: 50.235,//mass excess
+            bindingEnergy: 6.581,
+            halfLife: "170ns"
+        ));
+        #endregion
 
+        #region Aluminum ------------------------------------------------------ Aluminum
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-21
+            symbol: "Al",
+            massNumber: 21,//p+n
+            atomicNumber: 13,
+            atomicMass: 21.02804,//atomic weight
+            abundance: 0.0,
+            massDefect: 26.119,//mass excess
+            bindingEnergy: 6.343,
+            halfLife: "35.00000000001ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-22
+            symbol: "Al",
+            massNumber: 22,//p+n
+            atomicNumber: 13,
+            atomicMass: 22.01952,//atomic weight
+            abundance: 0.0,
+            massDefect: 18.183,//mass excess
+            bindingEnergy: 6.783,
+            halfLife: "59ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-23
+            symbol: "Al",
+            massNumber: 23,//p+n
+            atomicNumber: 13,
+            atomicMass: 23.007267432,//atomic weight
+            abundance: 0.0,
+            massDefect: 6.76957,//mass excess
+            bindingEnergy: 7.334792,
+            halfLife: "470ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-24
+            symbol: "Al",
+            massNumber: 24,//p+n
+            atomicNumber: 13,
+            atomicMass: 23.999938865,//atomic weight
+            abundance: 0.0,
+            massDefect: -0.056946,//mass excess
+            bindingEnergy: 7.649919,
+            halfLife: "2.053s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-25
+            symbol: "Al",
+            massNumber: 25,//p+n
+            atomicNumber: 13,
+            atomicMass: 24.990428095,//atomic weight
+            abundance: 0.0,
+            massDefect: -8.916172,//mass excess
+            bindingEnergy: 8.021144,
+            halfLife: "7.183s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-26
+            symbol: "Al",
+            massNumber: 26,//p+n
+            atomicNumber: 13,
+            atomicMass: 25.986891692,//atomic weight
+            abundance: 0.0,
+            massDefect: -12.210309,//mass excess
+            bindingEnergy: 8.149771,
+            halfLife: "716641.2988331y"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-27
+            symbol: "Al",
+            massNumber: 27,//p+n
+            atomicNumber: 13,
+            atomicMass: 26.981538627,//atomic weight
+            abundance: 100.0,
+            massDefect: -17.196658,//mass excess
+            bindingEnergy: 8.331545,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-28
+            symbol: "Al",
+            massNumber: 28,//p+n
+            atomicNumber: 13,
+            atomicMass: 27.981910306,//atomic weight
+            abundance: 0.0,
+            massDefect: -16.850441,//mass excess
+            bindingEnergy: 8.309886,
+            halfLife: "2.241333333333m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-29
+            symbol: "Al",
+            massNumber: 29,//p+n
+            atomicNumber: 13,
+            atomicMass: 28.980445046,//atomic weight
+            abundance: 0.0,
+            massDefect: -18.215322,//mass excess
+            bindingEnergy: 8.348725,
+            halfLife: "6.566666666667m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-30
+            symbol: "Al",
+            massNumber: 30,//p+n
+            atomicNumber: 13,
+            atomicMass: 29.982960256,//atomic weight
+            abundance: 0.0,
+            massDefect: -15.872419,//mass excess
+            bindingEnergy: 8.261381,
+            halfLife: "3.6s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-31
+            symbol: "Al",
+            massNumber: 31,//p+n
+            atomicNumber: 13,
+            atomicMass: 30.983946619,//atomic weight
+            abundance: 0.0,
+            massDefect: -14.953628,//mass excess
+            bindingEnergy: 8.225611,
+            halfLife: "644ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-32
+            symbol: "Al",
+            massNumber: 32,//p+n
+            atomicNumber: 13,
+            atomicMass: 31.988124489,//atomic weight
+            abundance: 0.0,
+            massDefect: -11.061966,//mass excess
+            bindingEnergy: 8.099175,
+            halfLife: "33ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-33
+            symbol: "Al",
+            massNumber: 33,//p+n
+            atomicNumber: 13,
+            atomicMass: 32.990843336,//atomic weight
+            abundance: 0.0,
+            massDefect: -8.529377,//mass excess
+            bindingEnergy: 8.021586,
+            halfLife: "41.7ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-34
+            symbol: "Al",
+            massNumber: 34,//p+n
+            atomicNumber: 13,
+            atomicMass: 33.996851837,//atomic weight
+            abundance: 0.0,
+            massDefect: -2.932495,//mass excess
+            bindingEnergy: 7.858434,
+            halfLife: "42ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-35
+            symbol: "Al",
+            massNumber: 35,//p+n
+            atomicNumber: 13,
+            atomicMass: 34.999860235,//atomic weight
+            abundance: 0.0,
+            massDefect: -0.13019,//mass excess
+            bindingEnergy: 7.784451,
+            halfLife: "38.6ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-36
+            symbol: "Al",
+            massNumber: 36,//p+n
+            atomicNumber: 13,
+            atomicMass: 36.006207204,//atomic weight
+            abundance: 0.0,
+            massDefect: 5.781974,//mass excess
+            bindingEnergy: 7.628193,
+            halfLife: "90ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-37
+            symbol: "Al",
+            massNumber: 37,//p+n
+            atomicNumber: 13,
+            atomicMass: 37.01067782,//atomic weight
+            abundance: 0.0,
+            massDefect: 9.946326,//mass excess
+            bindingEnergy: 7.527619,
+            halfLife: "10.7ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-38
+            symbol: "Al",
+            massNumber: 38,//p+n
+            atomicNumber: 13,
+            atomicMass: 38.017231021,//atomic weight
+            abundance: 0.0,
+            massDefect: 16.050594,//mass excess
+            bindingEnergy: 7.381288,
+            halfLife: "7.6ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-39
+            symbol: "Al",
+            massNumber: 39,//p+n
+            atomicNumber: 13,
+            atomicMass: 39.02297,//atomic weight
+            abundance: 0.0,
+            massDefect: 21.396417,//mass excess
+            bindingEnergy: 7.261909,
+            halfLife: "7.6µs"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-40
+            symbol: "Al",
+            massNumber: 40,//p+n
+            atomicNumber: 13,
+            atomicMass: 40.03145,//atomic weight
+            abundance: 0.0,
+            massDefect: 29.295,//mass excess
+            bindingEnergy: 7.085,
+            halfLife: "260ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-41
+            symbol: "Al",
+            massNumber: 41,//p+n
+            atomicNumber: 13,
+            atomicMass: 41.03833,//atomic weight
+            abundance: 0.0,
+            massDefect: 35.704,//mass excess
+            bindingEnergy: 6.952,
+            halfLife: "260ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Aluminum",//Al-42
+            symbol: "Al",
+            massNumber: 42,//p+n
+            atomicNumber: 13,
+            atomicMass: 42.04689,//atomic weight
+            abundance: 0.0,
+            massDefect: 43.678,//mass excess
+            bindingEnergy: 6.789,
+            halfLife: "170ns"
+        ));
+        #endregion
 
+        #region Silicon ------------------------------------------------------ Silicon
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-22
+            symbol: "Si",
+            massNumber: 22,//p+n
+            atomicNumber: 14,
+            atomicMass: 22.03453,//atomic weight
+            abundance: 0.0,
+            massDefect: 32.164,//mass excess
+            bindingEnergy: 6.111,
+            halfLife: "29ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-23
+            symbol: "Si",
+            massNumber: 23,//p+n
+            atomicNumber: 14,
+            atomicMass: 23.02552,//atomic weight
+            abundance: 0.0,
+            massDefect: 23.772,//mass excess
+            bindingEnergy: 6.562,
+            halfLife: "42.3ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-24
+            symbol: "Si",
+            massNumber: 24,//p+n
+            atomicNumber: 14,
+            atomicMass: 24.011545616,//atomic weight
+            abundance: 0.0,
+            massDefect: 10.754673,//mass excess
+            bindingEnergy: 7.166837,
+            halfLife: "140ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-25
+            symbol: "Si",
+            massNumber: 25,//p+n
+            atomicNumber: 14,
+            atomicMass: 25.004105574,//atomic weight
+            abundance: 0.0,
+            massDefect: 3.824318,//mass excess
+            bindingEnergy: 7.48023,
+            halfLife: "220ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-26
+            symbol: "Si",
+            massNumber: 26,//p+n
+            atomicNumber: 14,
+            atomicMass: 25.992329921,//atomic weight
+            abundance: 0.0,
+            massDefect: -7.144632,//mass excess
+            bindingEnergy: 7.924847,
+            halfLife: "2.234s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-27
+            symbol: "Si",
+            massNumber: 27,//p+n
+            atomicNumber: 14,
+            atomicMass: 26.986704905,//atomic weight
+            abundance: 0.0,
+            massDefect: -12.384301,//mass excess
+            bindingEnergy: 8.124334,
+            halfLife: "4.16s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-28
+            symbol: "Si",
+            massNumber: 28,//p+n
+            atomicNumber: 14,
+            atomicMass: 27.97692653246,//atomic weight
+            abundance: 92.23,
+            massDefect: -21.492796781,//mass excess
+            bindingEnergy: 8.447744,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-29
+            symbol: "Si",
+            massNumber: 29,//p+n
+            atomicNumber: 14,
+            atomicMass: 28.9764947,//atomic weight
+            abundance: 4.683,
+            massDefect: -21.895046,//mass excess
+            bindingEnergy: 8.448634,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-30
+            symbol: "Si",
+            massNumber: 30,//p+n
+            atomicNumber: 14,
+            atomicMass: 29.973770171,//atomic weight
+            abundance: 3.087,
+            massDefect: -24.432928,//mass excess
+            bindingEnergy: 8.520653,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-31
+            symbol: "Si",
+            massNumber: 31,//p+n
+            atomicNumber: 14,
+            atomicMass: 30.975363227,//atomic weight
+            abundance: 0.0,
+            massDefect: -22.949006,//mass excess
+            bindingEnergy: 8.45829,
+            halfLife: "2.621666666667h"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-32
+            symbol: "Si",
+            massNumber: 32,//p+n
+            atomicNumber: 14,
+            atomicMass: 31.974148082,//atomic weight
+            abundance: 0.0,
+            massDefect: -24.080907,//mass excess
+            bindingEnergy: 8.481569,
+            halfLife: "153y"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-33
+            symbol: "Si",
+            massNumber: 33,//p+n
+            atomicNumber: 14,
+            atomicMass: 32.97800022,//atomic weight
+            abundance: 0.0,
+            massDefect: -20.492662,//mass excess
+            bindingEnergy: 8.360402,
+            halfLife: "6.11s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-34
+            symbol: "Si",
+            massNumber: 34,//p+n
+            atomicNumber: 14,
+            atomicMass: 33.978575524,//atomic weight
+            abundance: 0.0,
+            massDefect: -19.95677,//mass excess
+            bindingEnergy: 8.336138,
+            halfLife: "2.77s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-35
+            symbol: "Si",
+            massNumber: 35,//p+n
+            atomicNumber: 14,
+            atomicMass: 34.984583575,//atomic weight
+            abundance: 0.0,
+            massDefect: -14.360307,//mass excess
+            bindingEnergy: 8.168673,
+            halfLife: "780ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-36
+            symbol: "Si",
+            massNumber: 36,//p+n
+            atomicNumber: 14,
+            atomicMass: 35.986599477,//atomic weight
+            abundance: 0.0,
+            massDefect: -12.482507,//mass excess
+            bindingEnergy: 8.113807,
+            halfLife: "450ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-37
+            symbol: "Si",
+            massNumber: 37,//p+n
+            atomicNumber: 14,
+            atomicMass: 36.992936087,//atomic weight
+            abundance: 0.0,
+            massDefect: -6.579998,//mass excess
+            bindingEnergy: 7.953132,
+            halfLife: "90ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-38
+            symbol: "Si",
+            massNumber: 38,//p+n
+            atomicNumber: 14,
+            atomicMass: 37.995633601,//atomic weight
+            abundance: 0.0,
+            massDefect: -4.067274,//mass excess
+            bindingEnergy: 7.890118,
+            halfLife: "1µs"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-39
+            symbol: "Si",
+            massNumber: 39,//p+n
+            atomicNumber: 14,
+            atomicMass: 39.002070013,//atomic weight
+            abundance: 0.0,
+            massDefect: 1.928205,//mass excess
+            bindingEnergy: 7.741034,
+            halfLife: "47.5ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-40
+            symbol: "Si",
+            massNumber: 40,//p+n
+            atomicNumber: 14,
+            atomicMass: 40.0058691213,//atomic weight
+            abundance: 0.0,
+            massDefect: 5.467052,//mass excess
+            bindingEnergy: 7.66081,
+            halfLife: "33ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-41
+            symbol: "Si",
+            massNumber: 41,//p+n
+            atomicNumber: 14,
+            atomicMass: 41.01456,//atomic weight
+            abundance: 0.0,
+            massDefect: 13.562553,//mass excess
+            bindingEnergy: 7.47338,
+            halfLife: "20ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-42
+            symbol: "Si",
+            massNumber: 42,//p+n
+            atomicNumber: 14,
+            atomicMass: 42.01979,//atomic weight
+            abundance: 0.0,
+            massDefect: 18.434,//mass excess
+            bindingEnergy: 7.372,
+            halfLife: "12.5ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-43
+            symbol: "Si",
+            massNumber: 43,//p+n
+            atomicNumber: 14,
+            atomicMass: 43.02866,//atomic weight
+            abundance: 0.0,
+            massDefect: 26.697,//mass excess
+            bindingEnergy: 7.196,
+            halfLife: "60.00000000002ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Silicon",//Si-44
+            symbol: "Si",
+            massNumber: 44,//p+n
+            atomicNumber: 14,
+            atomicMass: 44.03526,//atomic weight
+            abundance: 0.0,
+            massDefect: 32.844,//mass excess
+            bindingEnergy: 7.076,
+            halfLife: "360.6737602222ns"
+        ));
+        #endregion
 
+        #region Phosphorus ------------------------------------------------------ Phosphorus
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-25
+            symbol: "P",
+            massNumber: 25,//p+n
+            atomicNumber: 15,
+            atomicMass: 25.02026,//atomic weight
+            abundance: 0.0,
+            massDefect: 18.872,//mass excess
+            bindingEnergy: 6.847,
+            halfLife: "29.99999999998ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-26
+            symbol: "P",
+            massNumber: 26,//p+n
+            atomicNumber: 15,
+            atomicMass: 26.01178,//atomic weight
+            abundance: 0.0,
+            massDefect: 10.973,//mass excess
+            bindingEnergy: 7.198,
+            halfLife: "43.7ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-27
+            symbol: "P",
+            massNumber: 27,//p+n
+            atomicNumber: 15,
+            atomicMass: 26.999230236,//atomic weight
+            abundance: 0.0,
+            massDefect: -0.71703,//mass excess
+            bindingEnergy: 7.663237,
+            halfLife: "260ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-28
+            symbol: "P",
+            massNumber: 28,//p+n
+            atomicNumber: 15,
+            atomicMass: 27.992314761,//atomic weight
+            abundance: 0.0,
+            massDefect: -7.158753,//mass excess
+            bindingEnergy: 7.907873,
+            halfLife: "270.3ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-29
+            symbol: "P",
+            massNumber: 29,//p+n
+            atomicNumber: 15,
+            atomicMass: 28.981800606,//atomic weight
+            abundance: 0.0,
+            massDefect: -16.952626,//mass excess
+            bindingEnergy: 8.251228,
+            halfLife: "4.142s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-30
+            symbol: "P",
+            massNumber: 30,//p+n
+            atomicNumber: 15,
+            atomicMass: 29.978313789,//atomic weight
+            abundance: 0.0,
+            massDefect: -20.200575,//mass excess
+            bindingEnergy: 8.353496,
+            halfLife: "2.498333333333m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-31
+            symbol: "P",
+            massNumber: 31,//p+n
+            atomicNumber: 15,
+            atomicMass: 30.973761629,//atomic weight
+            abundance: 100.0,
+            massDefect: -24.440885,//mass excess
+            bindingEnergy: 8.481178,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-32
+            symbol: "P",
+            massNumber: 32,//p+n
+            atomicNumber: 15,
+            atomicMass: 31.973907274,//atomic weight
+            abundance: 0.0,
+            massDefect: -24.305218,//mass excess
+            bindingEnergy: 8.46413,
+            halfLife: "14.262d"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-33
+            symbol: "P",
+            massNumber: 33,//p+n
+            atomicNumber: 15,
+            atomicMass: 32.971725543,//atomic weight
+            abundance: 0.0,
+            massDefect: -26.337486,//mass excess
+            bindingEnergy: 8.513811,
+            halfLife: "25.33564814815d"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-34
+            symbol: "P",
+            massNumber: 34,//p+n
+            atomicNumber: 15,
+            atomicMass: 33.973636257,//atomic weight
+            abundance: 0.0,
+            massDefect: -24.557669,//mass excess
+            bindingEnergy: 8.448449,
+            halfLife: "12.43s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-35
+            symbol: "P",
+            massNumber: 35,//p+n
+            atomicNumber: 15,
+            atomicMass: 34.973314117,//atomic weight
+            abundance: 0.0,
+            massDefect: -24.85774,//mass excess
+            bindingEnergy: 8.446247,
+            halfLife: "47.3s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-36
+            symbol: "P",
+            massNumber: 36,//p+n
+            atomicNumber: 15,
+            atomicMass: 35.97825968,//atomic weight
+            abundance: 0.0,
+            massDefect: -20.250977,//mass excess
+            bindingEnergy: 8.307866,
+            halfLife: "5.6s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-37
+            symbol: "P",
+            massNumber: 37,//p+n
+            atomicNumber: 15,
+            atomicMass: 36.979608946,//atomic weight
+            abundance: 0.0,
+            massDefect: -18.994145,//mass excess
+            bindingEnergy: 8.267505,
+            halfLife: "2.31s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-38
+            symbol: "P",
+            massNumber: 38,//p+n
+            atomicNumber: 15,
+            atomicMass: 37.984156827,//atomic weight
+            abundance: 0.0,
+            massDefect: -14.75782,//mass excess
+            bindingEnergy: 8.15086,
+            halfLife: "640ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-39
+            symbol: "P",
+            massNumber: 39,//p+n
+            atomicNumber: 15,
+            atomicMass: 38.986179475,//atomic weight
+            abundance: 0.0,
+            massDefect: -12.873735,//mass excess
+            bindingEnergy: 8.10051,
+            halfLife: "280ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-40
+            symbol: "P",
+            massNumber: 40,//p+n
+            atomicNumber: 15,
+            atomicMass: 39.991296951,//atomic weight
+            abundance: 0.0,
+            massDefect: -8.106838,//mass excess
+            bindingEnergy: 7.980608,
+            halfLife: "125ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-41
+            symbol: "P",
+            massNumber: 41,//p+n
+            atomicNumber: 15,
+            atomicMass: 40.994335435,//atomic weight
+            abundance: 0.0,
+            massDefect: -5.276508,//mass excess
+            bindingEnergy: 7.913788,
+            halfLife: "100ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-42
+            symbol: "P",
+            massNumber: 42,//p+n
+            atomicNumber: 15,
+            atomicMass: 42.001007913,//atomic weight
+            abundance: 0.0,
+            massDefect: 0.938865,//mass excess
+            bindingEnergy: 7.769554,
+            halfLife: "48.5ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-43
+            symbol: "P",
+            massNumber: 43,//p+n
+            atomicNumber: 15,
+            atomicMass: 43.00619,//atomic weight
+            abundance: 0.0,
+            massDefect: 5.765948,//mass excess
+            bindingEnergy: 7.664314,
+            halfLife: "36.5ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-44
+            symbol: "P",
+            massNumber: 44,//p+n
+            atomicNumber: 15,
+            atomicMass: 44.01299,//atomic weight
+            abundance: 0.0,
+            massDefect: 12.1,//mass excess
+            bindingEnergy: 7.53,
+            halfLife: "18.5ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-45
+            symbol: "P",
+            massNumber: 45,//p+n
+            atomicNumber: 15,
+            atomicMass: 45.01922,//atomic weight
+            abundance: 0.0,
+            massDefect: 17.903,//mass excess
+            bindingEnergy: 7.413,
+            halfLife: "200ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Phosphorus",//P-46
+            symbol: "P",
+            massNumber: 46,//p+n
+            atomicNumber: 15,
+            atomicMass: 46.02738,//atomic weight
+            abundance: 0.0,
+            massDefect: 25.504,//mass excess
+            bindingEnergy: 7.262,
+            halfLife: "200ns"
+        ));
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Sulfur ------------------------------------------------------ Sulfur
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-26
+            symbol: "S",
+            massNumber: 26,//p+n
+            atomicNumber: 16,
+            atomicMass: 26.02788,//atomic weight
+            abundance: 0.0,
+            massDefect: 25.97,//mass excess
+            bindingEnergy: 6.591,
+            halfLife: "10ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-27
+            symbol: "S",
+            massNumber: 27,//p+n
+            atomicNumber: 16,
+            atomicMass: 27.018833,//atomic weight
+            abundance: 0.0,
+            massDefect: 17.543,//mass excess
+            bindingEnergy: 6.958,
+            halfLife: "15.5ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-28
+            symbol: "S",
+            massNumber: 28,//p+n
+            atomicNumber: 16,
+            atomicMass: 28.004372763,//atomic weight
+            abundance: 0.0,
+            massDefect: 4.073203,//mass excess
+            bindingEnergy: 7.47879,
+            halfLife: "125ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-29
+            symbol: "S",
+            massNumber: 29,//p+n
+            atomicNumber: 16,
+            atomicMass: 28.996608049,//atomic weight
+            abundance: 0.0,
+            massDefect: -3.159582,//mass excess
+            bindingEnergy: 7.748629,
+            halfLife: "187ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-30
+            symbol: "S",
+            massNumber: 30,//p+n
+            atomicNumber: 16,
+            atomicMass: 29.984903249,//atomic weight
+            abundance: 0.0,
+            massDefect: -14.062532,//mass excess
+            bindingEnergy: 8.122817,
+            halfLife: "1.178s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-31
+            symbol: "S",
+            massNumber: 31,//p+n
+            atomicNumber: 16,
+            atomicMass: 30.979554728,//atomic weight
+            abundance: 0.0,
+            massDefect: -19.044648,//mass excess
+            bindingEnergy: 8.281869,
+            halfLife: "2.572s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-32
+            symbol: "S",
+            massNumber: 32,//p+n
+            atomicNumber: 16,
+            atomicMass: 31.972070999,//atomic weight
+            abundance: 95.02,
+            massDefect: -26.015697,//mass excess
+            bindingEnergy: 8.493134,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-33
+            symbol: "S",
+            massNumber: 33,//p+n
+            atomicNumber: 16,
+            atomicMass: 32.971458759,//atomic weight
+            abundance: 0.75,
+            massDefect: -26.585994,//mass excess
+            bindingEnergy: 8.497634,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-34
+            symbol: "S",
+            massNumber: 34,//p+n
+            atomicNumber: 16,
+            atomicMass: 33.9678669029,//atomic weight
+            abundance: 4.21,
+            massDefect: -29.931788,//mass excess
+            bindingEnergy: 8.583501,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-35
+            symbol: "S",
+            massNumber: 35,//p+n
+            atomicNumber: 16,
+            atomicMass: 34.969032161,//atomic weight
+            abundance: 0.0,
+            massDefect: -28.846356,//mass excess
+            bindingEnergy: 8.537855,
+            halfLife: "87.51157407407d"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-36
+            symbol: "S",
+            massNumber: 36,//p+n
+            atomicNumber: 16,
+            atomicMass: 35.96708076,//atomic weight
+            abundance: 0.0,
+            massDefect: -30.664075,//mass excess
+            bindingEnergy: 8.575387,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-37
+            symbol: "S",
+            massNumber: 37,//p+n
+            atomicNumber: 16,
+            atomicMass: 36.971125567,//atomic weight
+            abundance: 0.0,
+            massDefect: -26.89636,//mass excess
+            bindingEnergy: 8.459934,
+            halfLife: "5.05m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-38
+            symbol: "S",
+            massNumber: 38,//p+n
+            atomicNumber: 16,
+            atomicMass: 37.971163317,//atomic weight
+            abundance: 0.0,
+            massDefect: -26.861197,//mass excess
+            bindingEnergy: 8.448782,
+            halfLife: "2.838888888889h"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-39
+            symbol: "S",
+            massNumber: 39,//p+n
+            atomicNumber: 16,
+            atomicMass: 38.975134306,//atomic weight
+            abundance: 0.0,
+            massDefect: -23.162245,//mass excess
+            bindingEnergy: 8.344258,
+            halfLife: "11.5s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-40
+            symbol: "S",
+            massNumber: 40,//p+n
+            atomicNumber: 16,
+            atomicMass: 39.975451728,//atomic weight
+            abundance: 0.0,
+            massDefect: -22.866568,//mass excess
+            bindingEnergy: 8.330043,
+            halfLife: "8.8s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-41
+            symbol: "S",
+            massNumber: 41,//p+n
+            atomicNumber: 16,
+            atomicMass: 40.979582149,//atomic weight
+            abundance: 0.0,
+            massDefect: -19.019105,//mass excess
+            bindingEnergy: 8.229892,
+            halfLife: "1.99s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-42
+            symbol: "S",
+            massNumber: 42,//p+n
+            atomicNumber: 16,
+            atomicMass: 41.981022419,//atomic weight
+            abundance: 0.0,
+            massDefect: -17.677503,//mass excess
+            bindingEnergy: 8.194173,
+            halfLife: "1.013s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-43
+            symbol: "S",
+            massNumber: 43,//p+n
+            atomicNumber: 16,
+            atomicMass: 42.98715479,//atomic weight
+            abundance: 0.0,
+            massDefect: -11.965235,//mass excess
+            bindingEnergy: 8.058473,
+            halfLife: "280ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-44
+            symbol: "S",
+            massNumber: 44,//p+n
+            atomicNumber: 16,
+            atomicMass: 43.99021339,//atomic weight
+            abundance: 0.0,
+            massDefect: -9.116168,//mass excess
+            bindingEnergy: 7.994013,
+            halfLife: "100ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-45
+            symbol: "S",
+            massNumber: 45,//p+n
+            atomicNumber: 16,
+            atomicMass: 44.996508112,//atomic weight
+            abundance: 0.0,
+            massDefect: -3.252672,//mass excess
+            bindingEnergy: 7.865431,
+            halfLife: "68ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-46
+            symbol: "S",
+            massNumber: 46,//p+n
+            atomicNumber: 16,
+            atomicMass: 46.00075,//atomic weight
+            abundance: 0.0,
+            massDefect: 0.699,//mass excess
+            bindingEnergy: 7.784,
+            halfLife: "50ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-47
+            symbol: "S",
+            massNumber: 47,//p+n
+            atomicNumber: 16,
+            atomicMass: 47.00859,//atomic weight
+            abundance: 0.0,
+            massDefect: 8.002,//mass excess
+            bindingEnergy: 7.635,
+            halfLife: "20.19773057245ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-48
+            symbol: "S",
+            massNumber: 48,//p+n
+            atomicNumber: 16,
+            atomicMass: 48.01417,//atomic weight
+            abundance: 0.0,
+            massDefect: 13.199,//mass excess
+            bindingEnergy: 7.536,
+            halfLife: "200ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sulfur",//S-49
+            symbol: "S",
+            massNumber: 49,//p+n
+            atomicNumber: 16,
+            atomicMass: 49.023619,//atomic weight
+            abundance: 0.0,
+            massDefect: 22.001,//mass excess
+            bindingEnergy: 7.367,
+            halfLife: "200ns"
+        ));
+        #endregion
+
+        #region Chlorine ------------------------------------------------------ Chlorine
+
+        #endregion
+
+        #region Argon ------------------------------------------------------ Argon
+
+        #endregion
+
+        #region Potassium ------------------------------------------------------ Potassium
+
+        #endregion
+
+        #region Calcium ------------------------------------------------------ Calcium
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Scandium ------------------------------------------------------ Scandium
+
+        #endregion
+
+        #region Titanium ------------------------------------------------------ Titanium
+
+        #endregion
+
+        #region Vanadium ------------------------------------------------------ Vanadium
+
+        #endregion
+
+        #region Chromium ------------------------------------------------------ Chromium
+
+        #endregion
+
+        #region Manganese ------------------------------------------------------ Manganese
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Iron ------------------------------------------------------ Iron
+
+        #endregion
+
+        #region Cobalt ------------------------------------------------------ Cobalt
+
+        #endregion
+
+        #region Nickel ------------------------------------------------------ Nickel
+
+        #endregion
+
+        #region Copper ------------------------------------------------------ Copper
+
+        #endregion
+
+        #region Zinc ------------------------------------------------------ Zinc
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Gallium ------------------------------------------------------ Gallium
+
+        #endregion
+
+        #region Germanium ------------------------------------------------------ Germanium
+
+        #endregion
+
+        #region Arsenic ------------------------------------------------------ Arsenic
+
+        #endregion
+
+        #region Selenium ------------------------------------------------------ Selenium
+
+        #endregion
+
+        #region Bromine ------------------------------------------------------ Bromine
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Krypton ------------------------------------------------------ Krypton
+
+        #endregion
+
+        #region Rubidium ------------------------------------------------------ Rubidium
+
+        #endregion
+
+        #region Strontium ------------------------------------------------------ Strontium
+
+        #endregion
+
+        #region Yttrium ------------------------------------------------------ Yttrium
+
+        #endregion
+
+        #region Zirconium ------------------------------------------------------ Zirconium
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Niobium ------------------------------------------------------ Niobium
+
+        #endregion
+
+        #region Molybdenum ------------------------------------------------------ Molybdenum
+
+        #endregion
+
+        #region Technetium ------------------------------------------------------ Technetium
+
+        #endregion
+
+        #region Ruthenium ------------------------------------------------------ Ruthenium
+
+        #endregion
+
+        #region Palladium ------------------------------------------------------ Palladium
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Silver ------------------------------------------------------ Silver
+
+        #endregion
+
+        #region Cadmium ------------------------------------------------------ Cadmium
+
+        #endregion
+
+        #region Indium ------------------------------------------------------ Indium
+
+        #endregion
+
+        #region Tin ------------------------------------------------------ Tin
+
+        #endregion
+
+        #region Antimony ------------------------------------------------------ Antimony
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Tellerium ------------------------------------------------------ Tellerium
+
+        #endregion
+
+        #region Iodine ------------------------------------------------------ Iodine
+
+        #endregion
+
+        #region Xenon ------------------------------------------------------ Xenon
+
+        #endregion
+
+        #region Cesium ------------------------------------------------------ Cesium
+
+        #endregion
+
+        #region Barium ------------------------------------------------------ Barium
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Lanthanum ------------------------------------------------------ Lanthanum
+
+        #endregion
+
+        #region Cerium ------------------------------------------------------ Cerium
+
+        #endregion
+
+        #region Praseodymium ------------------------------------------------------ Praseodymium
+
+        #endregion
+
+        #region Neodymium ------------------------------------------------------ Neodymium
+
+        #endregion
+
+        #region Promethium ------------------------------------------------------ Promethium
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Samarium ------------------------------------------------------ Samarium
+
+        #endregion
+
+        #region Europium ------------------------------------------------------ Europium
+
+        #endregion
+
+        #region Gadolinium ------------------------------------------------------ Gadolinium
+
+        #endregion
+
+        #region Terbium ------------------------------------------------------ Terbium
+
+        #endregion
+
+        #region Dysprosium ------------------------------------------------------ Dysprosium
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Holmium ------------------------------------------------------ Holmium
+
+        #endregion
+
+        #region Erbium ------------------------------------------------------ Erbium
+
+        #endregion
+
+        #region Thulium ------------------------------------------------------ Thulium
+
+        #endregion
+
+        #region Ytterbium ------------------------------------------------------ Ytterbium
+
+        #endregion
+
+        #region Lutetium ------------------------------------------------------ Lutetium
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Hafnium ------------------------------------------------------ Hafnium
+
+        #endregion
+
+        #region Tantalum ------------------------------------------------------ Tantalum
+
+        #endregion
+
+        #region Tungsten ------------------------------------------------------ Tungsten
+
+        #endregion
+
+        #region Rhenium ------------------------------------------------------ Rhenium
+
+        #endregion
+
+        #region Osmium ------------------------------------------------------ Osmium
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Iridium ------------------------------------------------------ Iridium
+
+        #endregion
+
+        #region Platinum ------------------------------------------------------ Platinum
+
+        #endregion
+
+        #region Gold ------------------------------------------------------ Gold
+
+        #endregion
+
+        #region Mercury ------------------------------------------------------ Mercury
+
+        #endregion
+
+        #region Thallium ------------------------------------------------------ Thallium
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Lead ------------------------------------------------------ Lead
+
+        #endregion
+
+        #region Scandium ------------------------------------------------------ 
+
+        #endregion
+
+        #region Bismuth ------------------------------------------------------ Bismuth
+
+        #endregion
+
+        #region Polonium ------------------------------------------------------ Polonium
+
+        #endregion
+
+        #region Astatine ------------------------------------------------------ Astatine
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Radon ------------------------------------------------------ Radon
+
+        #endregion
+
+        #region Francium ------------------------------------------------------ Francium
+
+        #endregion
+
+        #region Radium ------------------------------------------------------ Radium
+
+        #endregion
+
+        #region Actinium ------------------------------------------------------ Actinium
+
+        #endregion
+
+        #region Scandium ------------------------------------------------------ 
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
 
         #region Thorium ------------------------------------------------------ Thorium
         elementsToAdd.Add(
@@ -1886,10 +3585,9 @@
         ));
         #endregion
 
+        #region Protactinium ------------------------------------------------------ Protactinium
 
-
-
-
+        #endregion
 
         #region Uranium ------------------------------------------------------ Uranium
         elementsToAdd.Add(
@@ -2203,6 +3901,1181 @@
             massDefect: 58.62,//mass excess
             bindingEnergy: 7.532,
             halfLife: "16.83333333333m"
+        ));
+        #endregion
+
+        #region Neptunium ------------------------------------------------------ Neptunium
+
+        #endregion
+
+        #region Plutonium ------------------------------------------------------ Plutonium
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Americium ------------------------------------------------------ Americium
+
+        #endregion
+
+        #region Curium ------------------------------------------------------ Curium
+
+        #endregion
+
+        #region Berkelium ------------------------------------------------------ Berkelium
+
+        #endregion
+
+        #region Californium ------------------------------------------------------ Californium
+
+        #endregion
+
+        #region Einsteinium ------------------------------------------------------ Einsteinium
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Fermium ------------------------------------------------------ Fermium
+
+        #endregion
+
+        #region Mendelevium ------------------------------------------------------ Mendelevium
+
+        #endregion
+
+        #region Nobelium ------------------------------------------------------ Nobelium
+
+        #endregion
+
+        #region Lawrencium ------------------------------------------------------ Lawrencium
+
+        #endregion
+
+        #region Rutherfordium ------------------------------------------------------ Rutherfordium
+
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Dubnium ------------------------------------------------------ Dubnium
+
+        #endregion
+
+        #region Seaborgium ------------------------------------------------------ Seaborgium
+
+        #endregion
+
+        #region Bohrium ------------------------------------------------------ Bohrium
+        /*elementsToAdd.Add(
+        new Particle(
+            elementName: "Hassium",//Hs-263
+            symbol: "Hs",
+            massNumber: 263,//p+n
+            atomicNumber: 108,
+            atomicMass: 263.128558,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 119.751,//mass excess
+            bindingEnergy: 7.295,
+            halfLife: "1ms"
+        ));*/
+        #endregion
+
+        #region Hassium ------------------------------------------------------ Hassium
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Hassium",//Hs-263
+            symbol: "Hs",
+            massNumber: 263,//p+n
+            atomicNumber: 108,
+            atomicMass: 263.128558,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 119.751,//mass excess
+            bindingEnergy: 7.295,
+            halfLife: "1ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Hassium",//Hs-264
+            symbol: "Hs",
+            massNumber: 264,//p+n
+            atomicNumber: 108,
+            atomicMass: 264.128394885,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 119.599066,//mass excess
+            bindingEnergy: 7.298239,
+            halfLife: "800µs"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Hassium",//Hs-265
+            symbol: "Hs",
+            massNumber: 265,//p+n
+            atomicNumber: 108,
+            atomicMass: 265.130085,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 121.173,//mass excess
+            bindingEnergy: 7.2959,
+            halfLife: "2ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Hassium",//Hs-266
+            symbol: "Hs",
+            massNumber: 266,//p+n
+            atomicNumber: 108,
+            atomicMass: 266.130097,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 121.185,//mass excess
+            bindingEnergy: 7.298,
+            halfLife: "2.3ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Hassium",//Hs-267
+            symbol: "Hs",
+            massNumber: 267,//p+n
+            atomicNumber: 108,
+            atomicMass: 267.131789,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 122.761,//mass excess
+            bindingEnergy: 7.295,
+            halfLife: "52ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Hassium",//Hs-268
+            symbol: "Hs",
+            massNumber: 268,//p+n
+            atomicNumber: 108,
+            atomicMass: 268.132162,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 123.108,//mass excess
+            bindingEnergy: 7.297,
+            halfLife: "2s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Hassium",//Hs-269
+            symbol: "Hs",
+            massNumber: 269,//p+n
+            atomicNumber: 108,
+            atomicMass: 269.134056,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 124.872,//mass excess
+            bindingEnergy: 7.293,
+            halfLife: "27s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Hassium",//Hs-270
+            symbol: "Hs",
+            massNumber: 270,//p+n
+            atomicNumber: 108,
+            atomicMass: 270.13465,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 125.426,//mass excess
+            bindingEnergy: 7.294,
+            halfLife: "3.6s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Hassium",//Hs-271
+            symbol: "Hs",
+            massNumber: 271,//p+n
+            atomicNumber: 108,
+            atomicMass: 271.137657,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 128.226,//mass excess
+            bindingEnergy: 7.286,
+            halfLife: "40s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Hassium",//Hs-272
+            symbol: "Hs",
+            massNumber: 272,//p+n
+            atomicNumber: 108,
+            atomicMass: 272.139052,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 129.526,//mass excess
+            bindingEnergy: 7.284,
+            halfLife: "40s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Hassium",//Hs-273
+            symbol: "Hs",
+            massNumber: 273,//p+n
+            atomicNumber: 108,
+            atomicMass: 273.141986,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 132.259,//mass excess
+            bindingEnergy: 7.277,
+            halfLife: "50s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Hassium",//Hs-274
+            symbol: "Hs",
+            massNumber: 274,//p+n
+            atomicNumber: 108,
+            atomicMass: 274.143131,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 133.325,//mass excess
+            bindingEnergy: 7.276,
+            halfLife: "1m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Hassium",//Hs-275
+            symbol: "Hs",
+            massNumber: 275,//p+n
+            atomicNumber: 108,
+            atomicMass: 275.145952,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 135.953,//mass excess
+            bindingEnergy: 7.27,
+            halfLife: "30m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Hassium",//Hs-276
+            symbol: "Hs",
+            massNumber: 276,//p+n
+            atomicNumber: 108,
+            atomicMass: 276.147208,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 137.123,//mass excess
+            bindingEnergy: 7.268,
+            halfLife: "1.111111111111h"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Hassium",//Hs-277
+            symbol: "Hs",
+            massNumber: 277,//p+n
+            atomicNumber: 108,
+            atomicMass: 277.149841,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 139.576,//mass excess
+            bindingEnergy: 7.262,
+            halfLife: "40m"
+        ));
+        #endregion
+
+        #region Meitnerium ------------------------------------------------------ Mietnerium
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Meitnerium",//Mt-265
+            symbol: "Mt",
+            massNumber: 265,//p+n
+            atomicNumber: 109,
+            atomicMass: 265.136151,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 126.824,//mass excess
+            bindingEnergy: 7.271,
+            halfLife: "2ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Meitnerium",//Mt-266
+            symbol: "Mt",
+            massNumber: 266,//p+n
+            atomicNumber: 109,
+            atomicMass: 266.137299,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 127.893,//mass excess
+            bindingEnergy: 7.27,
+            halfLife: "1.2ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Meitnerium",//Mt-267
+            symbol: "Mt",
+            massNumber: 267,//p+n
+            atomicNumber: 109,
+            atomicMass: 267.137307,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 127.901,//mass excess
+            bindingEnergy: 7.273,
+            halfLife: "9.954595782134ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Meitnerium",//Mt-268
+            symbol: "Mt",
+            massNumber: 268,//p+n
+            atomicNumber: 109,
+            atomicMass: 268.138728,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 129.224,//mass excess
+            bindingEnergy: 7.271,
+            halfLife: "53ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Meitnerium",//Mt-269
+            symbol: "Mt",
+            massNumber: 269,//p+n
+            atomicNumber: 109,
+            atomicMass: 269.139055,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 129.529,//mass excess
+            bindingEnergy: 7.273,
+            halfLife: "200ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Meitnerium",//Mt-270
+            symbol: "Mt",
+            massNumber: 270,//p+n
+            atomicNumber: 109,
+            atomicMass: 270.140657,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 131.021,//mass excess
+            bindingEnergy: 7.27,
+            halfLife: "2s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Meitnerium",//Mt-271
+            symbol: "Mt",
+            massNumber: 271,//p+n
+            atomicNumber: 109,
+            atomicMass: 271.141139,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 131.47,//mass excess
+            bindingEnergy: 7.272,
+            halfLife: "5s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Meitnerium",//Mt-272
+            symbol: "Mt",
+            massNumber: 272,//p+n
+            atomicNumber: 109,
+            atomicMass: 272.143738,//atomic weight
+            abundance: 6.67,//good luck finding this
+            massDefect: 133.891,//mass excess
+            bindingEnergy: 7.266,
+            halfLife: "9.9s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Meitnerium",//Mt-273
+            symbol: "Mt",
+            massNumber: 273,//p+n
+            atomicNumber: 109,
+            atomicMass: 273.144913,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 134.986,//mass excess
+            bindingEnergy: 7.264,
+            halfLife: "20s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Meitnerium",//Mt-274
+            symbol: "Mt",
+            massNumber: 274,//p+n
+            atomicNumber: 109,
+            atomicMass: 274.147492,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 137.388,//mass excess
+            bindingEnergy: 7.259,
+            halfLife: "20s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Meitnerium",//Mt-275
+            symbol: "Mt",
+            massNumber: 275,//p+n
+            atomicNumber: 109,
+            atomicMass: 275.148647,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 138.463,//mass excess
+            bindingEnergy: 7.258,
+            halfLife: "30s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Meitnerium",//Mt-276
+            symbol: "Mt",
+            massNumber: 276,//p+n
+            atomicNumber: 109,
+            atomicMass: 276.151156,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 140.801,//mass excess
+            bindingEnergy: 7.252,
+            halfLife: "40s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Meitnerium",//Mt-277
+            symbol: "Mt",
+            massNumber: 277,//p+n
+            atomicNumber: 109,
+            atomicMass: 277.15242,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 141.978,//mass excess
+            bindingEnergy: 7.251,
+            halfLife: "1m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Meitnerium",//Mt-278
+            symbol: "Mt",
+            massNumber: 278,//p+n
+            atomicNumber: 109,
+            atomicMass: 278.154812,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 144.207,//mass excess
+            bindingEnergy: 7.246,
+            halfLife: "30m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Meitnerium",//Mt-279
+            symbol: "Mt",
+            massNumber: 279,//p+n
+            atomicNumber: 109,
+            atomicMass: 279.156193,//atomic weight
+            abundance: 6.66,//good luck finding this
+            massDefect: 145.493,//mass excess
+            bindingEnergy: 7.244,
+            halfLife: "6.666666666667m"
+        ));
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Darmstadtium ------------------------------------------------------ Darmstadtium
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Darmstadtium",//Ds-267
+            symbol: "Ds",
+            massNumber: 267,//p+n
+            atomicNumber: 110,
+            atomicMass: 267.144341,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 134.453,//mass excess
+            bindingEnergy: 7.245,
+            halfLife: "10µs"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Darmstadtium",//Ds-268
+            symbol: "Ds",
+            massNumber: 268,//p+n
+            atomicNumber: 110,
+            atomicMass: 268.143795,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 133.944,//mass excess
+            bindingEnergy: 7.25,
+            halfLife: "100µs"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Darmstadtium",//Ds-269
+            symbol: "Ds",
+            massNumber: 269,//p+n
+            atomicNumber: 110,
+            atomicMass: 269.145124,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 135.183,//mass excess
+            bindingEnergy: 7.249,
+            halfLife: "230µs"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Darmstadtium",//Ds-270
+            symbol: "Ds",
+            massNumber: 270,//p+n
+            atomicNumber: 110,
+            atomicMass: 270.14472,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 134.806,//mass excess
+            bindingEnergy: 7.253,
+            halfLife: "100µs"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Darmstadtium",//Ds-271
+            symbol: "Ds",
+            massNumber: 271,//p+n
+            atomicNumber: 110,
+            atomicMass: 271.146062,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 136.056,//mass excess
+            bindingEnergy: 7.252,
+            halfLife: "1.62ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Darmstadtium",//Ds-272
+            symbol: "Ds",
+            massNumber: 272,//p+n
+            atomicNumber: 110,
+            atomicMass: 272.146317,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 136.293,//mass excess
+            bindingEnergy: 7.254,
+            halfLife: "1s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Darmstadtium",//Ds-273
+            symbol: "Ds",
+            massNumber: 273,//p+n
+            atomicNumber: 110,
+            atomicMass: 273.148863,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 138.665,//mass excess
+            bindingEnergy: 7.248,
+            halfLife: "170µs"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Darmstadtium",//Ds-274
+            symbol: "Ds",
+            massNumber: 274,//p+n
+            atomicNumber: 110,
+            atomicMass: 274.149492,//atomic weight
+            abundance: 8.34,//good luck finding this
+            massDefect: 139.251,//mass excess
+            bindingEnergy: 7.249,
+            halfLife: "2s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Darmstadtium",//Ds-275
+            symbol: "Ds",
+            massNumber: 275,//p+n
+            atomicNumber: 110,
+            atomicMass: 275.1521762,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 141.751,//mass excess
+            bindingEnergy: 7.243,
+            halfLife: "2s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Darmstadtium",//Ds-276
+            symbol: "Ds",
+            massNumber: 276,//p+n
+            atomicNumber: 110,
+            atomicMass: 276.153034,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 142.551,//mass excess
+            bindingEnergy: 7.243,
+            halfLife: "5s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Darmstadtium",//Ds-277
+            symbol: "Ds",
+            massNumber: 277,//p+n
+            atomicNumber: 110,
+            atomicMass: 277.155647,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 144.984,//mass excess
+            bindingEnergy: 7.237,
+            halfLife: "5s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Darmstadtium",//Ds-278
+            symbol: "Ds",
+            massNumber: 278,//p+n
+            atomicNumber: 110,
+            atomicMass: 278.156469,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 145.75,//mass excess
+            bindingEnergy: 7.237,
+            halfLife: "9.9s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Darmstadtium",//Ds-279
+            symbol: "Ds",
+            massNumber: 279,//p+n
+            atomicNumber: 110,
+            atomicMass: 279.158861,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 147.978,//mass excess
+            bindingEnergy: 7.232,
+            halfLife: "9.9s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Darmstadtium",//Ds-280
+            symbol: "Ds",
+            massNumber: 280,//p+n
+            atomicNumber: 110,
+            atomicMass: 280.159795,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 148.848,//mass excess
+            bindingEnergy: 7.232,
+            halfLife: "11s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Darmstadtium",//Ds-281
+            symbol: "Ds",
+            massNumber: 281,//p+n
+            atomicNumber: 110,
+            atomicMass: 281.162061,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 150.959,//mass excess
+            bindingEnergy: 7.228,
+            halfLife: "4m"
+        ));
+        #endregion
+
+        #region Roentgenium ------------------------------------------------------ Roentgenium
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Roentgenium",//Rg-272
+            symbol: "Rg",
+            massNumber: 272,//p+n
+            atomicNumber: 111,
+            atomicMass: 272.153615,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 156.878,//mass excess
+            bindingEnergy: 7.21,
+            halfLife: "10m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Roentgenium",//Rg-273
+            symbol: "Rg",
+            massNumber: 273,//p+n
+            atomicNumber: 111,
+            atomicMass: 273.153682,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 143.154,//mass excess
+            bindingEnergy: 7.229,
+            halfLife: "5ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Roentgenium",//Rg-274
+            symbol: "Rg",
+            massNumber: 274,//p+n
+            atomicNumber: 111,
+            atomicMass: 274.155713,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 145.046,//mass excess
+            bindingEnergy: 7.225,
+            halfLife: "5ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Roentgenium",//Rg-275
+            symbol: "Rg",
+            massNumber: 275,//p+n
+            atomicNumber: 111,
+            atomicMass: 275.1561423,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 145.445,//mass excess
+            bindingEnergy: 7.227,
+            halfLife: "9.954595782134ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Roentgenium",//Rg-276
+            symbol: "Rg",
+            massNumber: 276,//p+n
+            atomicNumber: 111,
+            atomicMass: 276.158493,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 147.636,//mass excess
+            bindingEnergy: 7.222,
+            halfLife: "100ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Roentgenium",//Rg-277
+            symbol: "Rg",
+            massNumber: 277,//p+n
+            atomicNumber: 111,
+            atomicMass: 277.159519,//atomic weight
+            abundance: 8.34,//good luck finding this
+            massDefect: 148.591,//mass excess
+            bindingEnergy: 7.221,
+            halfLife: "1s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Roentgenium",//Rg-278
+            symbol: "Rg",
+            massNumber: 278,//p+n
+            atomicNumber: 111,
+            atomicMass: 278.161604,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 150.533,//mass excess
+            bindingEnergy: 7.217,
+            halfLife: "1s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Roentgenium",//Rg-279
+            symbol: "Rg",
+            massNumber: 279,//p+n
+            atomicNumber: 111,
+            atomicMass: 279.162468,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 151.338,//mass excess
+            bindingEnergy: 7.218,
+            halfLife: "3s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Roentgenium",//Rg-280
+            symbol: "Rg",
+            massNumber: 280,//p+n
+            atomicNumber: 111,
+            atomicMass: 280.164473,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 153.206,//mass excess
+            bindingEnergy: 7.214,
+            halfLife: "9.9s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Roentgenium",//Rg-281
+            symbol: "Rg",
+            massNumber: 281,//p+n
+            atomicNumber: 111,
+            atomicMass: 281.165372,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 154.043,//mass excess
+            bindingEnergy: 7.214,
+            halfLife: "1m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Roentgenium",//Rg-282
+            symbol: "Rg",
+            massNumber: 282,//p+n
+            atomicNumber: 111,
+            atomicMass: 282.167486,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 156.012,//mass excess
+            bindingEnergy: 7.21,
+            halfLife: "3.333333333333m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Roentgenium",//Rg-283
+            symbol: "Rg",
+            massNumber: 283,//p+n
+            atomicNumber: 111,
+            atomicMass: 283.168415,//atomic weight
+            abundance: 8.33,//good luck finding this
+            massDefect: 156.878,//mass excess
+            bindingEnergy: 7.21,
+            halfLife: "10m"
+        ));
+        #endregion
+
+        #region Copernicium ------------------------------------------------------ Copernicium
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Copernicium",//Cn-277
+            symbol: "Cn",
+            massNumber: 277,//p+n
+            atomicNumber: 112,
+            atomicMass: 277.163943,//atomic weight
+            abundance: 11.11,//good luck finding this
+            massDefect: 152.712,//mass excess
+            bindingEnergy: 7.204,
+            halfLife: "1.1ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Copernicium",//Cn-278
+            symbol: "Cn",
+            massNumber: 278,//p+n
+            atomicNumber: 112,
+            atomicMass: 278.164312,//atomic weight
+            abundance: 11.11,//good luck finding this
+            massDefect: 153.056,//mass excess
+            bindingEnergy: 7.206,
+            halfLife: "9.954595782134ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Copernicium",//Cn-279
+            symbol: "Cn",
+            massNumber: 279,//p+n
+            atomicNumber: 112,
+            atomicMass: 279.166546,//atomic weight
+            abundance: 11.11,//good luck finding this
+            massDefect: 155.136,//mass excess
+            bindingEnergy: 7.201,
+            halfLife: "100ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Copernicium",//Cn-280
+            symbol: "Cn",
+            massNumber: 280,//p+n
+            atomicNumber: 112,
+            atomicMass: 280.167039,//atomic weight
+            abundance: 11.11,//good luck finding this
+            massDefect: 155.596,//mass excess
+            bindingEnergy: 7.203,
+            halfLife: "1s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Copernicium",//Cn-281
+            symbol: "Cn",
+            massNumber: 281,//p+n
+            atomicNumber: 112,
+            atomicMass: 281.169286,//atomic weight
+            abundance: 11.12,//good luck finding this
+            massDefect: 157.689,//mass excess
+            bindingEnergy: 7.198,
+            halfLife: "9.9s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Copernicium",//Cn-282
+            symbol: "Cn",
+            massNumber: 282,//p+n
+            atomicNumber: 112,
+            atomicMass: 282.169765,//atomic weight
+            abundance: 11.11,//good luck finding this
+            massDefect: 158.135,//mass excess
+            bindingEnergy: 7.2,
+            halfLife: "30s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Copernicium",//Cn-283
+            symbol: "Cn",
+            massNumber: 283,//p+n
+            atomicNumber: 112,
+            atomicMass: 283.171792,//atomic weight
+            abundance: 11.11,//good luck finding this
+            massDefect: 160.023,//mass excess
+            bindingEnergy: 7.196,
+            halfLife: "4.166666666667m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Copernicium",//Cn-284
+            symbol: "Cn",
+            massNumber: 284,//p+n
+            atomicNumber: 112,
+            atomicMass: 284.172384,//atomic weight
+            abundance: 11.11,//good luck finding this
+            massDefect: 160.574,//mass excess
+            bindingEnergy: 7.197,
+            halfLife: "31s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Copernicium",//Cn-285
+            symbol: "Cn",
+            massNumber: 285,//p+n
+            atomicNumber: 112,
+            atomicMass: 285.174105,//atomic weight
+            abundance: 11.11,//good luck finding this
+            massDefect: 162.177,//mass excess
+            bindingEnergy: 7.195,
+            halfLife: "40m"
+        ));
+        #endregion
+
+        #region Nihonium ------------------------------------------------------ Nihonium
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nihonium",//Nh-283
+            symbol: "Nh",
+            massNumber: 283,//p+n
+            atomicNumber: 113,
+            atomicMass: 283.176451,//atomic weight
+            abundance: 20.0,//good luck finding this
+            massDefect: 164.363,//mass excess
+            bindingEnergy: 7.178,
+            halfLife: "9.9s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nihonium",//Nh-284
+            symbol: "Nh",
+            massNumber: 284,//p+n
+            atomicNumber: 113,
+            atomicMass: 284.17808,//atomic weight
+            abundance: 20.0,//good luck finding this
+            massDefect: 165.8813,//mass excess
+            bindingEnergy: 7.176,
+            halfLife: "1m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nihonium",//Nh-285
+            symbol: "Nh",
+            massNumber: 285,//p+n
+            atomicNumber: 113,
+            atomicMass: 285.178732,//atomic weight
+            abundance: 20.0,//good luck finding this
+            massDefect: 166.488,//mass excess
+            bindingEnergy: 7.177,
+            halfLife: "1.666666666667m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nihonium",//Nh-286
+            symbol: "Nh",
+            massNumber: 286,//p+n
+            atomicNumber: 113,
+            atomicMass: 286.180481,//atomic weight
+            abundance: 20.0,//good luck finding this
+            massDefect: 168.117,//mass excess
+            bindingEnergy: 7.174,
+            halfLife: "5m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Nihonium",//Nh-287
+            symbol: "Nh",
+            massNumber: 287,//p+n
+            atomicNumber: 113,
+            atomicMass: 287.181045,//atomic weight
+            abundance: 20.0,//good luck finding this
+            massDefect: 168.643,//mass excess
+            bindingEnergy: 7.176,
+            halfLife: "20m"
+        ));
+        #endregion
+
+        #region Flerovium ------------------------------------------------------ Flerovium
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Flerovium",//Fl-285
+            symbol: "Fl",
+            massNumber: 285,//p+n
+            atomicNumber: 114,
+            atomicMass: 285.183698,//atomic weight
+            abundance: 20.0,//good luck finding this
+            massDefect: 171.114,//mass excess
+            bindingEnergy: 7.158,
+            halfLife: "5s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Flerovium",//Fl-286
+            symbol: "Fl",
+            massNumber: 286,//p+n
+            atomicNumber: 114,
+            atomicMass: 286.183855,//atomic weight
+            abundance: 20.0,//good luck finding this
+            massDefect: 171.26,//mass excess
+            bindingEnergy: 7.161,
+            halfLife: "5s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Flerovium",//Fl-287
+            symbol: "Fl",
+            massNumber: 287,//p+n
+            atomicNumber: 114,
+            atomicMass: 287.185599,//atomic weight
+            abundance: 20.0,//good luck finding this
+            massDefect: 172.884,//mass excess
+            bindingEnergy: 7.15,
+            halfLife: "9.9s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Flerovium",//Fl-288
+            symbol: "Fl",
+            massNumber: 288,//p+n
+            atomicNumber: 114,
+            atomicMass: 288.185689,//atomic weight
+            abundance: 20.0,//good luck finding this
+            massDefect: 172.968,//mass excess
+            bindingEnergy: 7.161,
+            halfLife: "2.8s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Flerovium",//Fl-289
+            symbol: "Fl",
+            massNumber: 289,//p+n
+            atomicNumber: 114,
+            atomicMass: 289.187279,//atomic weight
+            abundance: 20.0,//good luck finding this
+            massDefect: 174.449,//mass excess
+            bindingEnergy: 7.159,
+            halfLife: "1.333333333333m"
+        ));
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Moscovium ------------------------------------------------------ Moscovium
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Moscovium",//Mc-287
+            symbol: "Mc",
+            massNumber: 287,//p+n
+            atomicNumber: 115,
+            atomicMass: 287.191186,//atomic weight
+            abundance: 20.0,//good luck finding this
+            massDefect: 178.088,//mass excess
+            bindingEnergy: 7.137,
+            halfLife: "500ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Moscovium",//Mc-288
+            symbol: "Mc",
+            massNumber: 288,//p+n
+            atomicNumber: 115,
+            atomicMass: 288.192492,//atomic weight
+            abundance: 20.0,//good luck finding this
+            massDefect: 179.305,//mass excess
+            bindingEnergy: 7.136,
+            halfLife: "1s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Moscovium",//Mc-289
+            symbol: "Mc",
+            massNumber: 289,//p+n
+            atomicNumber: 115,
+            atomicMass: 289.1927152,//atomic weight
+            abundance: 20.0,//good luck finding this
+            massDefect: 179.513,//mass excess
+            bindingEnergy: 7.139,
+            halfLife: "9.9s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Moscovium",//Mc-290
+            symbol: "Mc",
+            massNumber: 290,//p+n
+            atomicNumber: 115,
+            atomicMass: 290.194141,//atomic weight
+            abundance: 20.0,//good luck finding this
+            massDefect: 180.842,//mass excess
+            bindingEnergy: 7.137,
+            halfLife: "9.9s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Moscovium",//Mc-291
+            symbol: "Mc",
+            massNumber: 291,//p+n
+            atomicNumber: 115,
+            atomicMass: 291.194384,//atomic weight
+            abundance: 20.0,//good luck finding this
+            massDefect: 181.068,//mass excess
+            bindingEnergy: 7.14,
+            halfLife: "1m"
+        ));
+        #endregion
+
+        #region Livermorium ------------------------------------------------------ Livermorium
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Livermorium",//Lv-289
+            symbol: "Lv",
+            massNumber: 289,//p+n
+            atomicNumber: 116,
+            atomicMass: 289.198862,//atomic weight
+            abundance: 25.0,//good luck finding this
+            massDefect: 185.239,//mass excess
+            bindingEnergy: 7.116,
+            halfLife: "9.954595782134ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Livermorium",//Lv-290
+            symbol: "Lv",
+            massNumber: 290,//p+n
+            atomicNumber: 116,
+            atomicMass: 290.19859,//atomic weight
+            abundance: 25.0,//good luck finding this
+            massDefect: 184.985,//mass excess
+            bindingEnergy: 7.12,
+            halfLife: "15ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Livermorium",//Lv-291
+            symbol: "Lv",
+            massNumber: 291,//p+n
+            atomicNumber: 116,
+            atomicMass: 291.200011,//atomic weight
+            abundance: 25.0,//good luck finding this
+            massDefect: 186.309,//mass excess
+            bindingEnergy: 7.119,
+            halfLife: "6.3ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Livermorium",//Lv-292
+            symbol: "Lv",
+            massNumber: 292,//p+n
+            atomicNumber: 116,
+            atomicMass: 292.199786,//atomic weight
+            abundance: 25.0,//good luck finding this
+            massDefect: 186.1,//mass excess
+            bindingEnergy: 7.123,
+            halfLife: "18ms"
+        ));
+        #endregion
+
+        #region Tennessine ------------------------------------------------------ Tennessine
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Tennessine",//Ts-291
+            symbol: "Ts",
+            massNumber: 291,//p+n
+            atomicNumber: 117,
+            atomicMass: 291.206564,//atomic weight
+            abundance: 50.0,//good luck finding this
+            massDefect: 192.413,//mass excess
+            bindingEnergy: 7.096,
+            halfLife: "9.954595782134ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Tennessine",//Ts-292
+            symbol: "Ts",
+            massNumber: 292,//p+n
+            atomicNumber: 117,
+            atomicMass: 292.207549,//atomic weight
+            abundance: 50.0,//good luck finding this
+            massDefect: 193.33,//mass excess
+            bindingEnergy: 7.096,
+            halfLife: "50ms"
+        ));
+        #endregion
+
+        #region Oganesson ------------------------------------------------------ Oganesson
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oganesson",//Og-293
+            symbol: "Og",
+            massNumber: 293,//p+n
+            atomicNumber: 118,
+            atomicMass: 293.21467,//atomic weight
+            abundance: 100.0,//good luck finding this
+            massDefect: 199.964,//mass excess
+            bindingEnergy: 7.074,
+            halfLife: "5ms"
         ));
         #endregion
 

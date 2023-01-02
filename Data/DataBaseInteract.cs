@@ -42,6 +42,7 @@
 
     public static void UpdateElementData(List<Particle> elements)
     {
+        if (elements.Count == 0) { return; }
         using (new TimedBlock("Update multiple elements data in database"))
         {
             using (var basicSql = new BasicSql())
