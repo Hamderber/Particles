@@ -64,9 +64,11 @@
         using (new TimedBlock($"Updating {isotopes.Count} items in the Isotope database in groups of {SizeOfDataListChunks}"))
         {
             List<List<Particle>> isotopeChunkLists = Tools.ChunkList(isotopes, SizeOfDataListChunks);
-            foreach (List<Particle> isotopeChunkList in isotopeChunkLists)
+            using (var basicSql = new BasicSql(true))
             {
-                using (var basicSql = new BasicSql())
+                basicSql.BeginTransaction();
+
+                foreach (List<Particle> isotopeChunkList in isotopeChunkLists)
                 {
                     List<object[]> data = new List<object[]>();
                     foreach (var isotope in isotopeChunkList)
@@ -103,6 +105,8 @@
                         }
                     }
                 }
+
+                basicSql.CommitTransaction();
             }
         }
     }
