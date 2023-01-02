@@ -88,4 +88,37 @@ public static class Tools
             particle.Name = foundParticle.Name;
         }
     }
+
+    /// <summary>
+    /// Splits a list of type T into a list of smaller lists of given size
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <param name="list"></param>
+    /// <param name="s"></param>
+    /// <returns></returns>
+    /// https://stackoverflow.com/questions/11463734/split-a-list-into-smaller-lists-of-n-size
+    public static List<List<T>> ChunkList<T>(List<T> list, int size) where T : class
+    {
+        if (size <= 0) return new List<List<T>>() { list };
+        return list.Select((x, i) => new { Index = i, Value = x })
+            .GroupBy(x => x.Index / size)
+            .Select(x => x.Select(v => v.Value).ToList())
+            .ToList();
+    }
+
+    public static int OptimizeSQLiteChunkSize()
+    {
+        Console.WriteLine("Optimization is enabled. This will take some time.\n");
+        using (new TimedBlock("Optimizing SQLite chunk size"))
+        {
+            int result = (
+                Debug.OptimizeSQLiteChunkSize() +
+                Debug.OptimizeSQLiteChunkSize() +
+                Debug.OptimizeSQLiteChunkSize() +
+                Debug.OptimizeSQLiteChunkSize() +
+                Debug.OptimizeSQLiteChunkSize()) / 5;
+            Console.WriteLine($"\nAverage optimal chunk size for current hardware is {result}");
+            return result;
+        }
+    }
 }

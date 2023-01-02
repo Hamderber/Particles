@@ -156,7 +156,7 @@ public class Particle
     public List<Particle> AlphaDecay()
     {
         List<Particle> result = new List<Particle>();
-        Particle newParticle = DataBaseInteract.LoadElementData(MassNumber - 4, AtomicNumber - 2);
+        Particle newParticle = DataBaseInteract.LoadIsotopeData(MassNumber - 4, AtomicNumber - 2);
 
         //Checks if the element trying to decay is stable
         if (IsStable)
@@ -173,7 +173,7 @@ public class Particle
         //Do the decay if it is possible
         else
         {
-            Particle alpha = DataBaseInteract.LoadElementData(4, 2);
+            Particle alpha = DataBaseInteract.LoadIsotopeData(4, 2);
             double energyFromMass = -Constants.amuToMev * (newParticle.AtomicMass + alpha.AtomicMass - this.AtomicMass);
             newParticle.KineticEnergy = energyFromMass * alpha.AtomicMass / newParticle.AtomicMass;
             alpha.KineticEnergy = energyFromMass - newParticle.KineticEnergy;
@@ -187,7 +187,7 @@ public class Particle
     public List<Particle> BetaMinusDecay()
     {
         List<Particle> result = new List<Particle>();
-        Particle newParticle = DataBaseInteract.LoadElementData(MassNumber, AtomicNumber + 1);
+        Particle newParticle = DataBaseInteract.LoadIsotopeData(MassNumber, AtomicNumber + 1);
 
         //Checks if the element trying to decay is stable
         if (IsStable)
@@ -217,7 +217,7 @@ public class Particle
     public List<Particle> BetaPlusDecay()
     {
         List<Particle> result = new List<Particle>();
-        Particle newParticle = DataBaseInteract.LoadElementData(MassNumber, AtomicNumber - 1);
+        Particle newParticle = DataBaseInteract.LoadIsotopeData(MassNumber, AtomicNumber - 1);
 
         //Checks if the element trying to decay is stable
         if (IsStable)

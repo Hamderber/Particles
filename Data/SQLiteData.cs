@@ -15,6 +15,11 @@ public class SQLiteData
         {
             Path = System.IO.Path.Combine(Path, DataSubDirectory);
             if (ConsoleLogs) Console.WriteLine($"Subdirectory \"{DataSubDirectory}\" already exists with path \"{Path}\"");
+            if (Program.RegenerateSQLiteDBsEachRun)
+            {
+                DataBaseInteract.DeleteDataBase();
+                DataBaseInteract.CreateDataBase();
+            }
         }
         else
         {
