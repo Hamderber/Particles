@@ -4365,15 +4365,888 @@
             #endregion
 
             #region Scandium ------------------------------------------------------ Scandium
-
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-38
+                symbol: "Sc",
+                massNumber: 38,//p+n
+                atomicNumber: 21,
+                atomicMass: 37.9947,//atomic weight
+                abundance: 0.0,
+                massDefect: -4.937,//mass excess
+                bindingEnergy: 7.769,
+                halfLife: "300ns"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-39
+                symbol: "Sc",
+                massNumber: 39,//p+n
+                atomicNumber: 21,
+                atomicMass: 38.984790002,//atomic weight
+                abundance: 0.0,
+                massDefect: -14.168021,//mass excess
+                bindingEnergy: 8.013336,
+                halfLife: "300ns"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-40
+                symbol: "Sc",
+                massNumber: 40,//p+n
+                atomicNumber: 21,
+                atomicMass: 39.977967407,//atomic weight
+                abundance: 0.0,
+                massDefect: -20.523228,//mass excess
+                bindingEnergy: 8.173666,
+                halfLife: "182.3ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-41
+                symbol: "Sc",
+                massNumber: 41,//p+n
+                atomicNumber: 21,
+                atomicMass: 40.969251125,//atomic weight
+                abundance: 0.0,
+                massDefect: -28.642392,//mass excess
+                bindingEnergy: 8.369198,
+                halfLife: "596.3ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-42
+                symbol: "Sc",
+                massNumber: 42,//p+n
+                atomicNumber: 21,
+                atomicMass: 41.965516429,//atomic weight
+                abundance: 0.0,
+                massDefect: -32.121239,//mass excess
+                bindingEnergy: 8.444935,
+                halfLife: "681.3ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-43
+                symbol: "Sc",
+                massNumber: 43,//p+n
+                atomicNumber: 21,
+                atomicMass: 42.961150658,//atomic weight
+                abundance: 0.0,
+                massDefect: -36.187929,//mass excess
+                bindingEnergy: 8.530821,
+                halfLife: "3.891666666667h"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-44
+                symbol: "Sc",
+                massNumber: 44,//p+n
+                atomicNumber: 21,
+                atomicMass: 43.959402752,//atomic weight
+                abundance: 0.0,
+                massDefect: -37.816093,//mass excess
+                bindingEnergy: 8.557381,
+                halfLife: "3.972222222222h"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-45
+                symbol: "Sc",
+                massNumber: 45,//p+n
+                atomicNumber: 21,
+                atomicMass: 44.955911909,//atomic weight
+                abundance: 100.0,
+                massDefect: -41.067792,//mass excess
+                bindingEnergy: 8.61884,
+                halfLife: "Stable"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-46
+                symbol: "Sc",
+                massNumber: 46,//p+n
+                atomicNumber: 21,
+                atomicMass: 45.95517189,//atomic weight
+                abundance: 0.0,
+                massDefect: -41.757115,//mass excess
+                bindingEnergy: 8.621922,
+                halfLife: "83.78472222222d"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-47
+                symbol: "Sc",
+                massNumber: 47,//p+n
+                atomicNumber: 21,
+                atomicMass: 46.952407508,//atomic weight
+                abundance: 0.0,
+                massDefect: -44.332121,//mass excess
+                bindingEnergy: 8.664995,
+                halfLife: "3.349189814815d"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-48
+                symbol: "Sc",
+                massNumber: 48,//p+n
+                atomicNumber: 21,
+                atomicMass: 47.952231468,//atomic weight
+                abundance: 0.0,
+                massDefect: -44.496101,//mass excess
+                bindingEnergy: 8.656043,
+                halfLife: "1.819444444444d"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-49
+                symbol: "Sc",
+                massNumber: 49,//p+n
+                atomicNumber: 21,
+                atomicMass: 48.950023975,//atomic weight
+                abundance: 0.0,
+                massDefect: -46.552368,//mass excess
+                bindingEnergy: 8.686074,
+                halfLife: "57.16666666667m"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-50
+                symbol: "Sc",
+                massNumber: 50,//p+n
+                atomicNumber: 21,
+                atomicMass: 49.952187685,//atomic weight
+                abundance: 0.0,
+                massDefect: -44.536885,//mass excess
+                bindingEnergy: 8.633469,
+                halfLife: "1.708333333333m"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-51
+                symbol: "Sc",
+                massNumber: 51,//p+n
+                atomicNumber: 21,
+                atomicMass: 50.953603368,//atomic weight
+                abundance: 0.0,
+                massDefect: -43.218184,//mass excess
+                bindingEnergy: 8.59659,
+                halfLife: "12.4s"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-52
+                symbol: "Sc",
+                massNumber: 52,//p+n
+                atomicNumber: 21,
+                atomicMass: 51.956675468,//atomic weight
+                abundance: 0.0,
+                massDefect: -40.356541,//mass excess
+                bindingEnergy: 8.531457,
+                halfLife: "8.2s"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-53
+                symbol: "Sc",
+                massNumber: 53,//p+n
+                atomicNumber: 21,
+                atomicMass: 52.95961,//atomic weight
+                abundance: 0.0,
+                massDefect: -37.623,//mass excess
+                bindingEnergy: 8.471,
+                halfLife: "3s"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-54
+                symbol: "Sc",
+                massNumber: 54,//p+n
+                atomicNumber: 21,
+                atomicMass: 53.963264561,//atomic weight
+                abundance: 0.0,
+                massDefect: -34.218841,//mass excess
+                bindingEnergy: 8.400753,
+                halfLife: "360ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-55
+                symbol: "Sc",
+                massNumber: 55,//p+n
+                atomicNumber: 21,
+                atomicMass: 54.968243949,//atomic weight
+                abundance: 0.0,
+                massDefect: -29.580571,//mass excess
+                bindingEnergy: 8.310432,
+                halfLife: "105ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-56
+                symbol: "Sc",
+                massNumber: 56,//p+n
+                atomicNumber: 21,
+                atomicMass: 55.97287,//atomic weight
+                abundance: 0.0,
+                massDefect: -25.271,//mass excess
+                bindingEnergy: 8.229,
+                halfLife: "35ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-57
+                symbol: "Sc",
+                massNumber: 57,//p+n
+                atomicNumber: 21,
+                atomicMass: 56.97779,//atomic weight
+                abundance: 0.0,
+                massDefect: -20.688,//mass excess
+                bindingEnergy: 8.146,
+                halfLife: "13ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-58
+                symbol: "Sc",
+                massNumber: 58,//p+n
+                atomicNumber: 21,
+                atomicMass: 57.98371,//atomic weight
+                abundance: 0.0,
+                massDefect: -15.174,//mass excess
+                bindingEnergy: 8.05,
+                halfLife: "12ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-59
+                symbol: "Sc",
+                massNumber: 59,//p+n
+                atomicNumber: 21,
+                atomicMass: 58.98921,//atomic weight
+                abundance: 0.0,
+                massDefect: -10.042,//mass excess
+                bindingEnergy: 7.963,
+                halfLife: "10ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Scandium",//Sc-60
+                symbol: "Sc",
+                massNumber: 60,//p+n
+                atomicNumber: 21,
+                atomicMass: 59.99571,//atomic weight
+                abundance: 0.0,
+                massDefect: -3.996,//mass excess
+                bindingEnergy: 7.864,
+                halfLife: "3ms"
+            ));
             #endregion
 
             #region Titanium ------------------------------------------------------ Titanium
-
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-38
+                symbol: "Ti",
+                massNumber: 38,//p+n
+                atomicNumber: 22,
+                atomicMass: 38.00977,//atomic weight
+                abundance: 0.0,
+                massDefect: 9.101,//mass excess
+                bindingEnergy: 7.379,
+                halfLife: "120ns"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-39
+                symbol: "Ti",
+                massNumber: 39,//p+n
+                atomicNumber: 22,
+                atomicMass: 39.00161,//atomic weight
+                abundance: 0.0,
+                massDefect: 1.5,//mass excess
+                bindingEnergy: 7.592,
+                halfLife: "31ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-40
+                symbol: "Ti",
+                massNumber: 40,//p+n
+                atomicNumber: 22,
+                atomicMass: 39.990498838,//atomic weight
+                abundance: 0.0,
+                massDefect: -8.850275,//mass excess
+                bindingEnergy: 7.862283,
+                halfLife: "53.3ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-41
+                symbol: "Ti",
+                massNumber: 41,//p+n
+                atomicNumber: 22,
+                atomicMass: 40.983145,//atomic weight
+                abundance: 0.0,
+                massDefect: -15.7,//mass excess
+                bindingEnergy: 8.034,
+                halfLife: "80.4ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-42
+                symbol: "Ti",
+                massNumber: 42,//p+n
+                atomicNumber: 22,
+                atomicMass: 41.973030902,//atomic weight
+                abundance: 0.0,
+                massDefect: -25.121552,//mass excess
+                bindingEnergy: 8.259649,
+                halfLife: "199ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-43
+                symbol: "Ti",
+                massNumber: 43,//p+n
+                atomicNumber: 22,
+                atomicMass: 42.9685224992,//atomic weight
+                abundance: 0.0,
+                massDefect: -29.321103,//mass excess
+                bindingEnergy: 8.352933,
+                halfLife: "509ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-44
+                symbol: "Ti",
+                massNumber: 44,//p+n
+                atomicNumber: 22,
+                atomicMass: 43.959690069,//atomic weight
+                abundance: 0.0,
+                massDefect: -37.548459,//mass excess
+                bindingEnergy: 8.533518,
+                halfLife: "60.24860476915y"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-45
+                symbol: "Ti",
+                massNumber: 45,//p+n
+                atomicNumber: 22,
+                atomicMass: 44.958125616,//atomic weight
+                abundance: 0.0,
+                massDefect: -39.005737,//mass excess
+                bindingEnergy: 8.555631,
+                halfLife: "3.080555555556h"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-46
+                symbol: "Ti",
+                massNumber: 46,//p+n
+                atomicNumber: 22,
+                atomicMass: 45.952631555,//atomic weight
+                abundance: 8.25,
+                massDefect: -44.123422,//mass excess
+                bindingEnergy: 8.656356,
+                halfLife: "Stable"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-47
+                symbol: "Ti",
+                massNumber: 47,//p+n
+                atomicNumber: 22,
+                atomicMass: 46.951763088,//atomic weight
+                abundance: 7.44,
+                massDefect: -44.932394,//mass excess
+                bindingEnergy: 8.661121,
+                halfLife: "Stable"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-48
+                symbol: "Ti",
+                massNumber: 48,//p+n
+                atomicNumber: 22,
+                atomicMass: 47.947946281,//atomic weight
+                abundance: 73.72,
+                massDefect: -48.487727,//mass excess
+                bindingEnergy: 8.722903,
+                halfLife: "Stable"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-49
+                symbol: "Ti",
+                massNumber: 49,//p+n
+                atomicNumber: 22,
+                atomicMass: 48.947869982,//atomic weight
+                abundance: 5.41,
+                massDefect: -48.558799,//mass excess
+                bindingEnergy: 8.711055,
+                halfLife: "Stable"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-50
+                symbol: "Ti",
+                massNumber: 50,//p+n
+                atomicNumber: 22,
+                atomicMass: 49.944791194,//atomic weight
+                abundance: 5.18,
+                massDefect: -51.426672,//mass excess
+                bindingEnergy: 8.755618,
+                halfLife: "Stable"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-51
+                symbol: "Ti",
+                massNumber: 51,//p+n
+                atomicNumber: 22,
+                atomicMass: 50.946614955,//atomic weight
+                abundance: 0.0,
+                massDefect: -49.727849,//mass excess
+                bindingEnergy: 8.70889,
+                halfLife: "5.766666666667m"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-52
+                symbol: "Ti",
+                massNumber: 52,//p+n
+                atomicNumber: 22,
+                atomicMass: 51.946897311,//atomic weight
+                abundance: 0.0,
+                massDefect: -49.464837,//mass excess
+                bindingEnergy: 8.691571,
+                halfLife: "1.7m"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-53
+                symbol: "Ti",
+                massNumber: 53,//p+n
+                atomicNumber: 22,
+                atomicMass: 52.949727171,//atomic weight
+                abundance: 0.0,
+                massDefect: -46.828839,//mass excess
+                bindingEnergy: 8.6301321,
+                halfLife: "32.7s"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-54
+                symbol: "Ti",
+                massNumber: 54,//p+n
+                atomicNumber: 22,
+                atomicMass: 53.951052401,//atomic weight
+                abundance: 0.0,
+                massDefect: -45.594395,//mass excess
+                bindingEnergy: 8.596924,
+                halfLife: "1.5s"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-55
+                symbol: "Ti",
+                massNumber: 55,//p+n
+                atomicNumber: 22,
+                atomicMass: 54.955265056,//atomic weight
+                abundance: 0.0,
+                massDefect: -41.670332,//mass excess
+                bindingEnergy: 8.516021,
+                halfLife: "1.3s"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-56
+                symbol: "Ti",
+                massNumber: 56,//p+n
+                atomicNumber: 22,
+                atomicMass: 55.958199639,//atomic weight
+                abundance: 0.0,
+                massDefect: -38.936785,//mass excess
+                bindingEnergy: 8.459266,
+                halfLife: "200ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-57
+                symbol: "Ti",
+                massNumber: 57,//p+n
+                atomicNumber: 22,
+                atomicMass: 56.963989137,//atomic weight
+                abundance: 0.0,
+                massDefect: -33.543903,//mass excess
+                bindingEnergy: 8.357848,
+                halfLife: "60ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-58
+                symbol: "Ti",
+                massNumber: 58,//p+n
+                atomicNumber: 22,
+                atomicMass: 57.96697,//atomic weight
+                abundance: 0.0,
+                massDefect: -30.767,//mass excess
+                bindingEnergy: 8.305,
+                halfLife: "59ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-59
+                symbol: "Ti",
+                massNumber: 59,//p+n
+                atomicNumber: 22,
+                atomicMass: 58.97293,//atomic weight
+                abundance: 0.0,
+                massDefect: -25.216,//mass excess
+                bindingEnergy: 8.207,
+                halfLife: "30ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-60
+                symbol: "Ti",
+                massNumber: 60,//p+n
+                atomicNumber: 22,
+                atomicMass: 59.97676,//atomic weight
+                abundance: 0.0,
+                massDefect: -21.648,//mass excess
+                bindingEnergy: 8.145,
+                halfLife: "22ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-61
+                symbol: "Ti",
+                massNumber: 61,//p+n
+                atomicNumber: 22,
+                atomicMass: 60.9832,//atomic weight
+                abundance: 0.0,
+                massDefect: -15.649,//mass excess
+                bindingEnergy: 8.046,
+                halfLife: "10ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-62
+                symbol: "Ti",
+                massNumber: 62,//p+n
+                atomicNumber: 22,
+                atomicMass: 61.98749,//atomic weight
+                abundance: 0.0,
+                massDefect: -11.653,//mass excess
+                bindingEnergy: 7.982,
+                halfLife: "10ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Titanium",//Ti-63
+                symbol: "Ti",
+                massNumber: 63,//p+n
+                atomicNumber: 22,
+                atomicMass: 62.99442,//atomic weight
+                abundance: 0.0,
+                massDefect: -5.198,//mass excess
+                bindingEnergy: 7.881,
+                halfLife: "3ms"
+            ));
             #endregion
 
             #region Vanadium ------------------------------------------------------ Vanadium
-
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-42
+                symbol: "V",
+                massNumber: 42,//p+n
+                atomicNumber: 23,
+                atomicMass: 41.99123,//atomic weight
+                abundance: 0.0,
+                massDefect: -8.169,//mass excess
+                bindingEnergy: 7.837,
+                halfLife: "55ns"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-43
+                symbol: "V",
+                massNumber: 43,//p+n
+                atomicNumber: 23,
+                atomicMass: 42.98065,//atomic weight
+                abundance: 0.0,
+                massDefect: -18.024,//mass excess
+                bindingEnergy: 8.072,
+                halfLife: "800ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-44
+                symbol: "V",
+                massNumber: 44,//p+n
+                atomicNumber: 23,
+                atomicMass: 43.97411,//atomic weight
+                abundance: 0.0,
+                massDefect: -24.11638,//mass excess
+                bindingEnergy: 8.210463,
+                halfLife: "111ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-45
+                symbol: "V",
+                massNumber: 45,//p+n
+                atomicNumber: 23,
+                atomicMass: 44.965775808,//atomic weight
+                abundance: 0.0,
+                massDefect: -31.879629,//mass excess
+                bindingEnergy: 8.379887,
+                halfLife: "547ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-46
+                symbol: "V",
+                massNumber: 46,//p+n
+                atomicNumber: 23,
+                atomicMass: 45.960200481,//atomic weight
+                abundance: 0.0,
+                massDefect: -37.073013,//mass excess
+                bindingEnergy: 8.486079,
+                halfLife: "422.5ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-47
+                symbol: "V",
+                massNumber: 47,//p+n
+                atomicNumber: 23,
+                atomicMass: 46.95490894,//atomic weight
+                abundance: 0.0,
+                massDefect: -42.002051,//mass excess
+                bindingEnergy: 8.582127,
+                halfLife: "32.66666666667m"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-48
+                symbol: "V",
+                massNumber: 48,//p+n
+                atomicNumber: 23,
+                atomicMass: 47.952253707,//atomic weight
+                abundance: 0.0,
+                massDefect: -44.475385,//mass excess
+                bindingEnergy: 8.623013,
+                halfLife: "15.97349537037d"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-49
+                symbol: "V",
+                massNumber: 49,//p+n
+                atomicNumber: 23,
+                atomicMass: 48.948516101,//atomic weight
+                abundance: 0.0,
+                massDefect: -47.95694,//mass excess
+                bindingEnergy: 8.682806,
+                halfLife: "329.8611111111d"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-50
+                symbol: "V",
+                massNumber: 50,//p+n
+                atomicNumber: 23,
+                atomicMass: 49.947158485,//atomic weight
+                abundance: 0.25,
+                massDefect: -49.221554,//mass excess
+                bindingEnergy: 8.695869,
+                halfLife: "1.4e17y"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-51
+                symbol: "V",
+                massNumber: 51,//p+n
+                atomicNumber: 23,
+                atomicMass: 50.943959507,//atomic weight
+                abundance: 99.75,
+                massDefect: -52.201383,//mass excess
+                bindingEnergy: 8.742051,
+                halfLife: "Stable"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-52
+                symbol: "V",
+                massNumber: 52,//p+n
+                atomicNumber: 23,
+                atomicMass: 51.944775479,//atomic weight
+                abundance: 0.0,
+                massDefect: -51.44131,//mass excess
+                bindingEnergy: 8.714535,
+                halfLife: "3.743333333333m"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-53
+                symbol: "V",
+                massNumber: 53,//p+n
+                atomicNumber: 23,
+                atomicMass: 52.944337979,//atomic weight
+                abundance: 0.0,
+                massDefect: -51.848839,//mass excess
+                bindingEnergy: 8.710088,
+                halfLife: "1.6m"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-54
+                symbol: "V",
+                massNumber: 54,//p+n
+                atomicNumber: 23,
+                atomicMass: 53.946439854,//atomic weight
+                abundance: 0.0,
+                massDefect: -49.890954,//mass excess
+                bindingEnergy: 8.662002,
+                halfLife: "49.8s"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-55
+                symbol: "V",
+                massNumber: 55,//p+n
+                atomicNumber: 23,
+                atomicMass: 54.947233701,//atomic weight
+                abundance: 0.0,
+                massDefect: -49.151491,//mass excess
+                bindingEnergy: 8.637817,
+                halfLife: "6.54s"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-56
+                symbol: "V",
+                massNumber: 56,//p+n
+                atomicNumber: 23,
+                atomicMass: 55.950530966,//atomic weight
+                abundance: 0.0,
+                massDefect: -46.080109,//mass excess
+                bindingEnergy: 8.572855,
+                halfLife: "216ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-57
+                symbol: "V",
+                massNumber: 57,//p+n
+                atomicNumber: 23,
+                atomicMass: 56.952561432,//atomic weight
+                abundance: 0.0,
+                massDefect: -44.188742,//mass excess
+                bindingEnergy: 8.530874,
+                halfLife: "350ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-58
+                symbol: "V",
+                massNumber: 58,//p+n
+                atomicNumber: 23,
+                atomicMass: 57.956834136,//atomic weight
+                abundance: 0.0,
+                massDefect: -40.208743,//mass excess
+                bindingEnergy: 8.45433,
+                halfLife: "185ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-59
+                symbol: "V",
+                massNumber: 59,//p+n
+                atomicNumber: 23,
+                atomicMass: 58.960207407,//atomic weight
+                abundance: 0.0,
+                massDefect: -37.066562,//mass excess
+                bindingEnergy: 8.394581,
+                halfLife: "75ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-60
+                symbol: "V",
+                massNumber: 60,//p+n
+                atomicNumber: 23,
+                atomicMass: 59.965026862,//atomic weight
+                abundance: 0.0,
+                massDefect: -32.577268,//mass excess
+                bindingEnergy: 8.314372,
+                halfLife: "68ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-61
+                symbol: "V",
+                massNumber: 61,//p+n
+                atomicNumber: 23,
+                atomicMass: 60.96848,//atomic weight
+                abundance: 0.0,
+                massDefect: -29.361,//mass excess
+                bindingEnergy: 8.258,
+                halfLife: "47ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-62
+                symbol: "V",
+                massNumber: 62,//p+n
+                atomicNumber: 23,
+                atomicMass: 61.97378,//atomic weight
+                abundance: 0.0,
+                massDefect: -24.424,//mass excess
+                bindingEnergy: 8.175,
+                halfLife: "150ns"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-63
+                symbol: "V",
+                massNumber: 63,//p+n
+                atomicNumber: 23,
+                atomicMass: 62.97755,//atomic weight
+                abundance: 0.0,
+                massDefect: -20.912,//mass excess
+                bindingEnergy: 8.118,
+                halfLife: "17ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-64
+                symbol: "V",
+                massNumber: 64,//p+n
+                atomicNumber: 23,
+                atomicMass: 63.98347,//atomic weight
+                abundance: 0.0,
+                massDefect: -15.398,//mass excess
+                bindingEnergy: 8.032,
+                halfLife: "19ms"
+            ));
+            elementsToAdd.Add(
+            new Particle(
+                elementName: "Vanadium",//V-65
+                symbol: "V",
+                massNumber: 65,//p+n
+                atomicNumber: 23,
+                atomicMass: 64.98792,//atomic weight
+                abundance: 0.0,
+                massDefect: -11.252,//mass excess
+                bindingEnergy: 7.968,
+                halfLife: "10ms"
+            ));
             #endregion
 
             #region Chromium ------------------------------------------------------ Chromium

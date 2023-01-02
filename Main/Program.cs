@@ -11,14 +11,15 @@
         //SETTINGS:
 
         RegenerateSQLiteDBsEachRun = true;
-        TimedBlock.Enabled = false;
+        TimedBlock.Enabled = true;
         SQLiteData.ConsoleLogs = false;
         DataBaseInteract.ConsoleLogs = false;
-        DataBaseInteract.SizeOfDataListChunks = ReOptimizeSQLiteChunkSize == true ? Tools.OptimizeSQLiteChunkSize() : 38;
+        DataBaseInteract.SizeOfDataListChunks = ReOptimizeSQLiteChunkSize == true ? Tools.OptimizeSQLiteChunkSize() : 1;
 
         //
 
         SQLiteData.Initialize();
+        Console.WriteLine("\n");
 
         Particle C8 = DataBaseInteract.LoadIsotopeData(8, 6);
         //Console.WriteLine($"Loaded particle with data:\n{C8}");
