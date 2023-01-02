@@ -55,7 +55,7 @@ public static class Tools
                 output += " + ";
             }
         }
-        return output;
+        return output + "\n";
     }
 
     public static string ToSuperscript(this int number)

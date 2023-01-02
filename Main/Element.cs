@@ -82,7 +82,7 @@ public class Particle
                 IsStable = true;
                 return;
             case (ElementaryParticle.ElectronNeutrino):
-                Name = "Neutrino";
+                Name = "Electron Neutrino";
                 Symbol = "νe";
                 MassNumber = 0;
                 AtomicNumber = 0;

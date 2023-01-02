@@ -595,6 +595,9 @@
         ));
         #endregion
 
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
         #region Carbon ------------------------------------------------------ Carbon
         elementsToAdd.Add(
         new Particle(
@@ -973,8 +976,896 @@
         ));
         #endregion
 
+        #region Oxygen ------------------------------------------------------ Oxygen
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oxygen",//O-12
+            symbol: "O",
+            massNumber: 12,//p+n
+            atomicNumber: 8,
+            atomicMass: 12.034404895,//atomic weight
+            abundance: 0.0,
+            massDefect: 32.047954,//mass excess
+            bindingEnergy: 4.87909,
+            halfLife: "1.1405e-12ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oxygen",//O-13
+            symbol: "O",
+            massNumber: 13,//p+n
+            atomicNumber: 8,
+            atomicMass: 13.024812213,//atomic weight
+            abundance: 0.0,
+            massDefect: 23.112428,//mass excess
+            bindingEnergy: 5.811994,
+            halfLife: "8.59ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oxygen",//O-14
+            symbol: "O",
+            massNumber: 14,//p+n
+            atomicNumber: 8,
+            atomicMass: 14.00859625,//atomic weight
+            abundance: 0.0,
+            massDefect: 8.007356,//mass excess
+            bindingEnergy: 7.052308,
+            halfLife: "1.176766666667m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oxygen",//O-15
+            symbol: "O",
+            massNumber: 15,//p+n
+            atomicNumber: 8,
+            atomicMass: 15.003065617,//atomic weight
+            abundance: 0.0,
+            massDefect: 2.855605,//mass excess
+            bindingEnergy: 7.463692,
+            halfLife: "2.037333333333m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oxygen",//O-16
+            symbol: "O",
+            massNumber: 16,//p+n
+            atomicNumber: 8,
+            atomicMass: 15.99491461956,//atomic weight
+            abundance: 99.762,
+            massDefect: -4.73700141,//mass excess
+            bindingEnergy: 7.976206,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oxygen",//O-17
+            symbol: "O",
+            massNumber: 17,//p+n
+            atomicNumber: 8,
+            atomicMass: 16.999131703,//atomic weight
+            abundance: 0.038,
+            massDefect: -0.808813,//mass excess
+            bindingEnergy: 7.750731,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oxygen",//O-18
+            symbol: "O",
+            massNumber: 18,//p+n
+            atomicNumber: 8,
+            atomicMass: 17.999161001,//atomic weight
+            abundance: 0.2,
+            massDefect: -0.781522,//mass excess
+            bindingEnergy: 7.767025,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oxygen",//O-19
+            symbol: "O",
+            massNumber: 19,//p+n
+            atomicNumber: 8,
+            atomicMass: 19.00358013,//atomic weight
+            abundance: 0.0,
+            massDefect: 3.33487,//mass excess
+            bindingEnergy: 7.566389,
+            halfLife: "26.88s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oxygen",//O-20
+            symbol: "O",
+            massNumber: 20,//p+n
+            atomicNumber: 8,
+            atomicMass: 20.004076742,//atomic weight
+            abundance: 0.0,
+            massDefect: 3.797462,//mass excess
+            bindingEnergy: 7.568505,
+            halfLife: "13.51s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oxygen",//O-21
+            symbol: "O",
+            massNumber: 21,//p+n
+            atomicNumber: 8,
+            atomicMass: 21.008655886,//atomic weight
+            abundance: 0.0,
+            massDefect: 8.062906,//mass excess
+            bindingEnergy: 7.389332,
+            halfLife: "3.42s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oxygen",//O-22
+            symbol: "O",
+            massNumber: 22,//p+n
+            atomicNumber: 8,
+            atomicMass: 22.009966947,//atomic weight
+            abundance: 0.0,
+            massDefect: 9.284152,//mass excess
+            bindingEnergy: 7.364821,
+            halfLife: "2.25s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oxygen",//O-23
+            symbol: "O",
+            massNumber: 23,//p+n
+            atomicNumber: 8,
+            atomicMass: 23.015687659,//atomic weight
+            abundance: 0.0,
+            massDefect: 14.61296,//mass excess
+            bindingEnergy: 7.16385,
+            halfLife: "82ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oxygen",//O-24
+            symbol: "O",
+            massNumber: 24,//p+n
+            atomicNumber: 8,
+            atomicMass: 24.020472917,//atomic weight
+            abundance: 0.0,
+            massDefect: 19.0704,//mass excess
+            bindingEnergy: 7.015935,
+            halfLife: "65ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oxygen",//O-25
+            symbol: "O",
+            massNumber: 25,//p+n
+            atomicNumber: 8,
+            atomicMass: 25.02946,//atomic weight
+            abundance: 0.0,
+            massDefect: 27.442,//mass excess
+            bindingEnergy: 6.723,
+            halfLife: "49.99999999997ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oxygen",//O-26
+            symbol: "O",
+            massNumber: 26,//p+n
+            atomicNumber: 8,
+            atomicMass: 26.03834,//atomic weight
+            abundance: 0.0,
+            massDefect: 35.713,//mass excess
+            bindingEnergy: 6.457,
+            halfLife: "39.99999999998ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oxygen",//O-27
+            symbol: "O",
+            massNumber: 27,//p+n
+            atomicNumber: 8,
+            atomicMass: 27.04826,//atomic weight
+            abundance: 0.0,
+            massDefect: 44.954,//mass excess
+            bindingEnergy: 6.175,
+            halfLife: "260ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Oxygen",//O-28
+            symbol: "O",
+            massNumber: 28,//p+n
+            atomicNumber: 8,
+            atomicMass: 28.05781,//atomic weight
+            abundance: 0.0,
+            massDefect: 53.85,//mass excess
+            bindingEnergy: 5.925,
+            halfLife: "100ns"
+        ));
+        #endregion
 
+        #region Fluorine ------------------------------------------------------ Fluorine
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Fluorine",//F-15
+            symbol: "F",
+            massNumber: 15,//p+n
+            atomicNumber: 9,
+            atomicMass: 15.018009103,//atomic weight
+            abundance: 0.0,
+            massDefect: 16.775372,//mass excess
+            bindingEnergy: 6.483551,
+            halfLife: "4.562e-13ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Fluorine",//F-16
+            symbol: "F",
+            massNumber: 16,//p+n
+            atomicNumber: 9,
+            atomicMass: 16.011465724,//atomic weight
+            abundance: 0.0,
+            massDefect: 10.680254,//mass excess
+            bindingEnergy: 6.963731,
+            halfLife: "1.1405e-11ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Fluorine",//F-17
+            symbol: "F",
+            massNumber: 17,//p+n
+            atomicNumber: 9,
+            atomicMass: 17.002095237,//atomic weight
+            abundance: 0.0,
+            massDefect: 1.951701,//mass excess
+            bindingEnergy: 7.542328,
+            halfLife: "1.074833333333m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Fluorine",//F-18
+            symbol: "F",
+            massNumber: 18,//p+n
+            atomicNumber: 9,
+            atomicMass: 18.000937956,//atomic weight
+            abundance: 0.0,
+            massDefect: 0.873701,//mass excess
+            bindingEnergy: 7.631605,
+            halfLife: "1.829516666667h"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Fluorine",//F-19
+            symbol: "F",
+            massNumber: 19,//p+n
+            atomicNumber: 9,
+            atomicMass: 18.998403224,//atomic weight
+            abundance: 100.0,
+            massDefect: -1.487386,//mass excess
+            bindingEnergy: 7.779015,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Fluorine",//F-20
+            symbol: "F",
+            massNumber: 20,//p+n
+            atomicNumber: 9,
+            atomicMass: 19.999981315,//atomic weight
+            abundance: 0.0,
+            massDefect: -0.017404,//mass excess
+            bindingEnergy: 7.720131,
+            halfLife: "11.07s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Fluorine",//F-21
+            symbol: "F",
+            massNumber: 21,//p+n
+            atomicNumber: 9,
+            atomicMass: 20.999948951,//atomic weight
+            abundance: 0.0,
+            massDefect: -0.047551,//mass excess
+            bindingEnergy: 7.73829,
+            halfLife: "4.158s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Fluorine",//F-22
+            symbol: "F",
+            massNumber: 22,//p+n
+            atomicNumber: 9,
+            atomicMass: 22.002998815,//atomic weight
+            abundance: 0.0,
+            massDefect: 2.793378,//mass excess
+            bindingEnergy: 7.624294,
+            halfLife: "4.23s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Fluorine",//F-23
+            symbol: "F",
+            massNumber: 23,//p+n
+            atomicNumber: 9,
+            atomicMass: 23.003574631,//atomic weight
+            abundance: 0.0,
+            massDefect: 3.329747,//mass excess
+            bindingEnergy: 7.62041,
+            halfLife: "2.23s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Fluorine",//F-24
+            symbol: "F",
+            massNumber: 24,//p+n
+            atomicNumber: 9,
+            atomicMass: 24.008115485,//atomic weight
+            abundance: 0.0,
+            massDefect: 7.559527,//mass excess
+            bindingEnergy: 7.462957,
+            halfLife: "390ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Fluorine",//F-25
+            symbol: "F",
+            massNumber: 25,//p+n
+            atomicNumber: 9,
+            atomicMass: 25.012101747,//atomic weight
+            abundance: 0.0,
+            massDefect: 11.272706,//mass excess
+            bindingEnergy: 7.338764,
+            halfLife: "50ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Fluorine",//F-26
+            symbol: "F",
+            massNumber: 26,//p+n
+            atomicNumber: 9,
+            atomicMass: 26.019615555,//atomic weight
+            abundance: 0.0,
+            massDefect: 18.271772,//mass excess
+            bindingEnergy: 7.097744,
+            halfLife: "9.6ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Fluorine",//F-27
+            symbol: "F",
+            massNumber: 27,//p+n
+            atomicNumber: 9,
+            atomicMass: 27.026760086,//atomic weight
+            abundance: 0.0,
+            massDefect: 24.92686,//mass excess
+            bindingEnergy: 6.887318,
+            halfLife: "5ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Fluorine",//F-28
+            symbol: "F",
+            massNumber: 28,//p+n
+            atomicNumber: 9,
+            atomicMass: 28.03567,//atomic weight
+            abundance: 0.0,
+            massDefect: 33.226,//mass excess
+            bindingEnergy: 6.633,
+            halfLife: "39.99999999998ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Fluorine",//F-29
+            symbol: "F",
+            massNumber: 29,//p+n
+            atomicNumber: 9,
+            atomicMass: 29.04326,//atomic weight
+            abundance: 0.0,
+            massDefect: 40.296,//mass excess
+            bindingEnergy: 6.439,
+            halfLife: "2.5ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Fluorine",//F-30
+            symbol: "F",
+            massNumber: 30,//p+n
+            atomicNumber: 9,
+            atomicMass: 30.0525,//atomic weight
+            abundance: 0.0,
+            massDefect: 48.903,//mass excess
+            bindingEnergy: 6.206,
+            halfLife: "260ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Fluorine",//F-31
+            symbol: "F",
+            massNumber: 31,//p+n
+            atomicNumber: 9,
+            atomicMass: 31.060429,//atomic weight
+            abundance: 0.0,
+            massDefect: 56.289,//mass excess
+            bindingEnergy: 6.028,
+            halfLife: "250ns"
+        ));
+        #endregion
 
+        #region Neon ------------------------------------------------------ Neon
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-16
+            symbol: "Ne",
+            massNumber: 16,//p+n
+            atomicNumber: 10,
+            atomicMass: 16.025761262,//atomic weight
+            abundance: 0.0,
+            massDefect: 23.996462,//mass excess
+            bindingEnergy: 6.082572,
+            halfLife: "3.739344262295e-12ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-17
+            symbol: "Ne",
+            massNumber: 17,//p+n
+            atomicNumber: 10,
+            atomicMass: 17.017671504,//atomic weight
+            abundance: 0.0,
+            massDefect: 16.460901,//mass excess
+            bindingEnergy: 6.642825,
+            halfLife: "109.2ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-18
+            symbol: "Ne",
+            massNumber: 18,//p+n
+            atomicNumber: 10,
+            atomicMass: 18.005708213,//atomic weight
+            abundance: 0.0,
+            massDefect: 5.317166,//mass excess
+            bindingEnergy: 7.341282,
+            halfLife: "1.672s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-19
+            symbol: "Ne",
+            massNumber: 19,//p+n
+            atomicNumber: 10,
+            atomicMass: 19.001880248,//atomic weight
+            abundance: 0.0,
+            massDefect: 1.75144,//mass excess
+            bindingEnergy: 7.567375,
+            halfLife: "17.22s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-20
+            symbol: "Ne",
+            massNumber: 20,//p+n
+            atomicNumber: 10,
+            atomicMass: 19.99244017542,//atomic weight
+            abundance: 90.48,
+            massDefect: -7.04193131,//mass excess
+            bindingEnergy: 8.03224,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-21
+            symbol: "Ne",
+            massNumber: 21,//p+n
+            atomicNumber: 10,
+            atomicMass: 20.993846684,//atomic weight
+            abundance: 0.27,
+            massDefect: -5.731776,//mass excess
+            bindingEnergy: 7.971713,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-22
+            symbol: "Ne",
+            massNumber: 22,//p+n
+            atomicNumber: 10,
+            atomicMass: 21.991385113,//atomic weight
+            abundance: 9.25,
+            massDefect: -8.024715,//mass excess
+            bindingEnergy: 8.080465,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-23
+            symbol: "Ne",
+            massNumber: 23,//p+n
+            atomicNumber: 10,
+            atomicMass: 22.994466904,//atomic weight
+            abundance: 0.0,
+            massDefect: -5.154045,//mass excess
+            bindingEnergy: 7.955255,
+            halfLife: "37.24s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-24
+            symbol: "Ne",
+            massNumber: 24,//p+n
+            atomicNumber: 10,
+            atomicMass: 23.993610779,//atomic weight
+            abundance: 0.0,
+            massDefect: -5.951521,//mass excess
+            bindingEnergy: 7.993319,
+            halfLife: "3.383333333333m"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-25
+            symbol: "Ne",
+            massNumber: 25,//p+n
+            atomicNumber: 10,
+            atomicMass: 24.997736888,//atomic weight
+            abundance: 0.0,
+            massDefect: -2.108075,//mass excess
+            bindingEnergy: 7.842701,
+            halfLife: "602ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-26
+            symbol: "Ne",
+            massNumber: 26,//p+n
+            atomicNumber: 10,
+            atomicMass: 26.000461206,//atomic weight
+            abundance: 0.0,
+            massDefect: 0.429611,//mass excess
+            bindingEnergy: 7.753891,
+            halfLife: "192ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-27
+            symbol: "Ne",
+            massNumber: 27,//p+n
+            atomicNumber: 10,
+            atomicMass: 27.007589903,//atomic weight
+            abundance: 0.0,
+            massDefect: 7.069949,//mass excess
+            bindingEnergy: 7.519709,
+            halfLife: "32ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-28
+            symbol: "Ne",
+            massNumber: 28,//p+n
+            atomicNumber: 10,
+            atomicMass: 28.012071575,//atomic weight
+            abundance: 0.0,
+            massDefect: 11.244601,//mass excess
+            bindingEnergy: 7.390315,
+            halfLife: "18.9ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-29
+            symbol: "Ne",
+            massNumber: 29,//p+n
+            atomicNumber: 10,
+            atomicMass: 29.019385933,//atomic weight
+            abundance: 0.0,
+            massDefect: 18.057881,//mass excess
+            bindingEnergy: 7.178857,
+            halfLife: "14.8ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-30
+            symbol: "Ne",
+            massNumber: 30,//p+n
+            atomicNumber: 10,
+            atomicMass: 30.024801045,//atomic weight
+            abundance: 0.0,
+            massDefect: 23.102025,//mass excess
+            bindingEnergy: 7.040467,
+            halfLife: "7.3ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-31
+            symbol: "Ne",
+            massNumber: 31,//p+n
+            atomicNumber: 10,
+            atomicMass: 31.03311,//atomic weight
+            abundance: 0.0,
+            massDefect: 30.842,//mass excess
+            bindingEnergy: 6.824,
+            halfLife: "3.4ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-32
+            symbol: "Ne",
+            massNumber: 32,//p+n
+            atomicNumber: 10,
+            atomicMass: 32.04002,//atomic weight
+            abundance: 0.0,
+            massDefect: 37.278,//mass excess
+            bindingEnergy: 6.662,
+            halfLife: "3.5ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-33
+            symbol: "Ne",
+            massNumber: 33,//p+n
+            atomicNumber: 10,
+            atomicMass: 33.04938,//atomic weight
+            abundance: 0.0,
+            massDefect: 45.997,//mass excess
+            bindingEnergy: 6.44,
+            halfLife: "180ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Neon",//Ne-34
+            symbol: "Ne",
+            massNumber: 34,//p+n
+            atomicNumber: 10,
+            atomicMass: 34.057028,//atomic weight
+            abundance: 0.0,
+            massDefect: 53.121,//mass excess
+            bindingEnergy: 6.279,
+            halfLife: "60.00000000002ns"
+        ));
+        #endregion
+
+        DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
+
+        #region Sodium ------------------------------------------------------ Sodium
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-18
+            symbol: "Na",
+            massNumber: 18,//p+n
+            atomicNumber: 11,
+            atomicMass: 18.025969,//atomic weight
+            abundance: 0.0,
+            massDefect: 24.189968,//mass excess
+            bindingEnergy: 6.249329,
+            halfLife: "1.3e-12ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-19
+            symbol: "Na",
+            massNumber: 19,//p+n
+            atomicNumber: 11,
+            atomicMass: 19.013877499,//atomic weight
+            abundance: 0.0,
+            massDefect: 12.926808,//mass excess
+            bindingEnergy: 6.938021,
+            halfLife: "39.99999999998ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-20
+            symbol: "Na",
+            massNumber: 20,//p+n
+            atomicNumber: 11,
+            atomicMass: 20.007351328,//atomic weight
+            abundance: 0.0,
+            massDefect: 6.847719,//mass excess
+            bindingEnergy: 7.298641,
+            halfLife: "447.9ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-21
+            symbol: "Na",
+            massNumber: 21,//p+n
+            atomicNumber: 11,
+            atomicMass: 20.997655206,//atomic weight
+            abundance: 0.0,
+            massDefect: -2.184161,//mass excess
+            bindingEnergy: 7.765524,
+            halfLife: "22.49s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-22
+            symbol: "Na",
+            massNumber: 22,//p+n
+            atomicNumber: 11,
+            atomicMass: 21.994436425,//atomic weight
+            abundance: 0.0,
+            massDefect: -5.182436,//mass excess
+            bindingEnergy: 7.915709,
+            halfLife: "2.6027y"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-23
+            symbol: "Na",
+            massNumber: 23,//p+n
+            atomicNumber: 11,
+            atomicMass: 22.98976928087,//atomic weight
+            abundance: 100.0,
+            massDefect: -9.52985358,//mass excess
+            bindingEnergy: 8.111493,
+            halfLife: "Stable"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-24
+            symbol: "Na",
+            massNumber: 24,//p+n
+            atomicNumber: 11,
+            atomicMass: 23.990962782,//atomic weight
+            abundance: 0.0,
+            massDefect: -8.418114,//mass excess
+            bindingEnergy: 8.063496,
+            halfLife: "14.997h"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-25
+            symbol: "Na",
+            massNumber: 25,//p+n
+            atomicNumber: 11,
+            atomicMass: 24.989953968,//atomic weight
+            abundance: 0.0,
+            massDefect: -9.357818,//mass excess
+            bindingEnergy: 8.101397,
+            halfLife: "59.1s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-26
+            symbol: "Na",
+            massNumber: 26,//p+n
+            atomicNumber: 11,
+            atomicMass: 25.992633,//atomic weight
+            abundance: 0.0,
+            massDefect: -6.862316,//mass excess
+            bindingEnergy: 8.00426,
+            halfLife: "1.077s"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-27
+            symbol: "Na",
+            massNumber: 27,//p+n
+            atomicNumber: 11,
+            atomicMass: 26.994076788,//atomic weight
+            abundance: 0.0,
+            massDefect: -5.517436,//mass excess
+            bindingEnergy: 7.956933,
+            halfLife: "301ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-28
+            symbol: "Na",
+            massNumber: 28,//p+n
+            atomicNumber: 11,
+            atomicMass: 27.998938,//atomic weight
+            abundance: 0.0,
+            massDefect: -0.989247,//mass excess
+            bindingEnergy: 7.799297,
+            halfLife: "30.5ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-29
+            symbol: "Na",
+            massNumber: 29,//p+n
+            atomicNumber: 11,
+            atomicMass: 29.002861,//atomic weight
+            abundance: 0.0,
+            massDefect: 2.665004,//mass excess
+            bindingEnergy: 7.682668,
+            halfLife: "44.9ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-30
+            symbol: "Na",
+            massNumber: 30,//p+n
+            atomicNumber: 11,
+            atomicMass: 30.008976,//atomic weight
+            abundance: 0.0,
+            massDefect: 8.36109,//mass excess
+            bindingEnergy: 7.505754,
+            halfLife: "48.4ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-31
+            symbol: "Na",
+            massNumber: 31,//p+n
+            atomicNumber: 11,
+            atomicMass: 31.013585452,//atomic weight
+            abundance: 0.0,
+            massDefect: 12.654768,//mass excess
+            bindingEnergy: 7.385492,
+            halfLife: "17ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-32
+            symbol: "Na",
+            massNumber: 32,//p+n
+            atomicNumber: 11,
+            atomicMass: 32.02046656,//atomic weight
+            abundance: 0.0,
+            massDefect: 19.064478,//mass excess
+            bindingEnergy: 7.206621,
+            halfLife: "13.2ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-33
+            symbol: "Na",
+            massNumber: 33,//p+n
+            atomicNumber: 11,
+            atomicMass: 33.026719756,//atomic weight
+            abundance: 0.0,
+            massDefect: 24.889293,//mass excess
+            bindingEnergy: 7.056314,
+            halfLife: "8ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-34
+            symbol: "Na",
+            massNumber: 34,//p+n
+            atomicNumber: 11,
+            atomicMass: 34.03517,//atomic weight
+            abundance: 0.0,
+            massDefect: 32.761,//mass excess
+            bindingEnergy: 6.855,
+            halfLife: "5.5ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-35
+            symbol: "Na",
+            massNumber: 35,//p+n
+            atomicNumber: 11,
+            atomicMass: 35.042493,//atomic weight
+            abundance: 0.0,
+            massDefect: 39.582,//mass excess
+            bindingEnergy: 6.695,
+            halfLife: "1.5ms"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-36
+            symbol: "Na",
+            massNumber: 36,//p+n
+            atomicNumber: 11,
+            atomicMass: 36.05148,//atomic weight
+            abundance: 0.0,
+            massDefect: 47.953,//mass excess
+            bindingEnergy: 6.5,
+            halfLife: "180ns"
+        ));
+        elementsToAdd.Add(
+        new Particle(
+            elementName: "Sodium",//Na-37
+            symbol: "Na",
+            massNumber: 37,//p+n
+            atomicNumber: 11,
+            atomicMass: 37.05934,//atomic weight
+            abundance: 0.0,
+            massDefect: 55.275,//mass excess
+            bindingEnergy: 6.345,
+            halfLife: "60.00000000002ns"
+        ));
+        #endregion
 
 
 
@@ -1316,5 +2207,6 @@
         #endregion
 
         DataBaseInteract.UpdateElementData(elementsToAdd);
+        elementsToAdd.Clear();
     }
 }
